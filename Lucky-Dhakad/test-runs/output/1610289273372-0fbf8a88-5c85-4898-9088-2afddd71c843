@@ -1,0 +1,2 @@
+Changing to string type because did not parse as following as number: 'three'.
+Spec was: Type: DOUBLE Min: -2.0 Max: 1.0

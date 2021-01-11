@@ -1,0 +1,1 @@
+{"id":"1610280518150-caf822b8-b519-4703-bc30-32ce89a7666b","testOrder":["io.jboot.test.cache.ehcache.EhCacheTester.testPut"],"results":{"io.jboot.test.cache.ehcache.EhCacheTester.testPut":{"name":"io.jboot.test.cache.ehcache.EhCacheTester.testPut","result":"PASS","time":1.127779955,"stackTrace":[]}},"diffs":{}}

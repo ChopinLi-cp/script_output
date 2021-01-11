@@ -1,0 +1,5 @@
+Jan 10, 2021 10:37:07 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+No vector for '~NOT'
+Jan 10, 2021 10:37:07 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'

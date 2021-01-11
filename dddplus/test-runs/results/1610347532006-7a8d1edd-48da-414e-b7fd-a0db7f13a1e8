@@ -1,0 +1,1 @@
+{"id":"1610347532006-7a8d1edd-48da-414e-b7fd-a0db7f13a1e8","testOrder":["io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplate"],"results":{"io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplate":{"name":"io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplate","result":"PASS","time":0.019719299,"stackTrace":[]}},"diffs":{}}

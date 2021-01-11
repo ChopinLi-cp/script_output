@@ -1,0 +1,22 @@
+Jan 10, 2021 10:37:22 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Jan 10, 2021 10:37:22 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'
+Changing to string type because did not parse as following as number: 'a'.
+Spec was: Type: DOUBLE Min: 1.7976931348623157E308 Max: 4.9E-324
+Type: STRING
+Type: DOUBLE Min: 1600.0 Max: 1700.0
+Type: DOUBLE Min: 1700.0 Max: 1800.0
+1600 : 1.0
+1620 : 0.1809929758310318
+1640 : 0.19060999155044556
+1660 : 0.18652532994747162
+1680 : 0.17321816086769104
+1700 : 0.22806431353092194
+No vector for '~NOT'
+Jan 10, 2021 10:37:22 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+-->0.008059127256274223
+finished writing vectors.
+Found vector for 'abraham'
+Found vector for 'isaac'

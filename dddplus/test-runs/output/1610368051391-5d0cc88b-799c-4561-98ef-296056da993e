@@ -1,0 +1,65 @@
+Jan 11, 2021 8:27:32 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 8:27:32 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 8:27:32 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 8:27:32 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 8:27:32 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1de5f259, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@729d991e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31fa1761]
+Jan 11, 2021 8:27:32 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-test/target/test-classes/spring-test.xml]
+Jan 11, 2021 8:27:32 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@e350b40: startup date [Mon Jan 11 20:27:32 CST 2021]; root of context hierarchy
+Jan 11, 2021 8:27:33 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 20:27:33,169 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 20:27:33,306 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 20:27:33,308 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 20:27:33,312 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 20:27:33,316 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 20:27:33,321 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 20:27:33,489 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-01-11 20:27:33,525 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-01-11 20:27:33,529 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-01-11 20:27:33,533 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+2021-01-11 20:27:33,542 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Extension's ...
+2021-01-11 20:27:33,573 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [47] - all DDD beans registered, cost 267ms
+Jan 11, 2021 8:27:33 PM org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor initialize
+INFO: Initializing ExecutorService  'asyncStepsExecutor'
+Jan 11, 2021 8:27:33 PM org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor initialize
+INFO: Initializing ExecutorService  'asyncStepsExecutorAutoDiscard'
+2021-01-11 20:27:33,629 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [55] - Spring started complete!
+2021-01-11 20:27:33,647 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 20:27:33,647 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,648 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 20:27:33,648 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,648 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 20:27:33,649 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BarStep] [43] - 重新编排步骤，增加步骤：[Baz, Ham]
+2021-01-11 20:27:33,650 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Baz, Ham]
+2021-01-11 20:27:33,650 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 20:27:33,650 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,651 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.HamStep] [16] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,651 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 20:27:33,651 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,652 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 20:27:33,652 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,652 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 20:27:33,653 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BarStep] [43] - 重新编排步骤，增加步骤：[Baz, Ham]
+2021-01-11 20:27:33,653 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Baz, Ham]
+2021-01-11 20:27:33,653 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 20:27:33,653 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,654 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.HamStep] [16] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,656 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 20:27:33,657 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,657 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 20:27:33,657 [step-1] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 20:27:33,657 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BarStep] [43] - 重新编排步骤，增加步骤：[Baz, Ham]
+2021-01-11 20:27:33,657 [step-1] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,658 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Baz, Ham]
+2021-01-11 20:27:33,658 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.HamStep] [16] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 20:27:33,658 [step-2] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 20:27:33,659 [step-2] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=true, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+Jan 11, 2021 8:27:33 PM org.springframework.context.support.GenericApplicationContext doClose
+INFO: Closing org.springframework.context.support.GenericApplicationContext@e350b40: startup date [Mon Jan 11 20:27:32 CST 2021]; root of context hierarchy

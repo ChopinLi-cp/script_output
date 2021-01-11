@@ -1,0 +1,5 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+getFiles
+[INFO] [01/10/2021 21:11:52.143] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook

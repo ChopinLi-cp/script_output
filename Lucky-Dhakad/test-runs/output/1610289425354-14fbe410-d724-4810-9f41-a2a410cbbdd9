@@ -1,0 +1,11 @@
+Jan 10, 2021 10:37:06 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Jan 10, 2021 10:37:06 PM pitt.search.semanticvectors.vectors.BinaryVector generateRandomVector
+SEVERE: Attempting to create binary vector with unequal number of zeros and ones. Unlikely to produce meaningful results. Therefore, seedlength has been set to  dimension/2, as recommended for binary vectors
+No enum constant pitt.search.semanticvectors.vectors.VectorType.BANANA
+Accepted values for '-vectortype' are:
+[BINARY, REAL, COMPLEX, COMPLEXFLAT]
+
+No vector for '~NOT'
+Jan 10, 2021 10:37:06 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'

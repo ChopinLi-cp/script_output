@@ -1,0 +1,908 @@
+Jan 11, 2021 5:29:19 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13e344d: startup date [Mon Jan 11 17:29:19 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [ability-with-invalid-domain.xml]
+Jan 11, 2021 5:29:20 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:20,611 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:20,750 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:20,752 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:20,756 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:20,761 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:20,766 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 17:29:20,929 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+Jan 11, 2021 5:29:20 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: DomainAbility domain not found: non-exist
+Jan 11, 2021 5:29:20 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3b8ee898: startup date [Mon Jan 11 17:29:20 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:20 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [pattern-invalid.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,092 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,096 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,096 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:21,098 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:21,100 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:21,102 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 17:29:21,111 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-01-11 17:29:21,126 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-01-11 17:29:21,130 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-01-11 17:29:21,133 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: io.github.errcase.invalidpattern.InvalidPattern MUST implements IIdentityResolver
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1d207fad: startup date [Mon Jan 11 17:29:21 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [dup-partner.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,250 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,254 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,254 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:21,256 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:21,257 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:21,259 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 17:29:21,267 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-01-11 17:29:21,280 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-01-11 17:29:21,282 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated partner code: ddd.cn.ka
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1603dc2f: startup date [Mon Jan 11 17:29:21 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [dup-pattern.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,383 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,387 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,387 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:21,388 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:21,390 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:21,392 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 17:29:21,399 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-01-11 17:29:21,412 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-01-11 17:29:21,414 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-01-11 17:29:21,415 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated pattern code: b2b
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1e6dad8: startup date [Mon Jan 11 17:29:21 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [dup-domain.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,517 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,520 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,521 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated domain code: FooDomain
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@53c68ce: startup date [Mon Jan 11 17:29:21 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [dup-policy.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,624 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,628 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,628 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:21,629 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:21,631 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:21,632 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 17:29:21,640 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-01-11 17:29:21,653 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: 1 Policy decides only 1 Extension:io.github.errcase.policy.DupTriggerPolicy, ext:io.github.dddplus.runtime.registry.mock.ext.ITrigger
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4efc25fc: startup date [Mon Jan 11 17:29:21 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [dup-step.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,746 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,749 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,749 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:21,751 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:21,752 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:21,753 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated step code: Foo
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@75fc1992: startup date [Mon Jan 11 17:29:21 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [service-with-invalid-domain.xml]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:21,851 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:21,854 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:21,854 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:21,855 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+Jan 11, 2021 5:29:21 PM org.springframework.context.support.ClassPathXmlApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: DomainService domain not found: non-exist
+Jan 11, 2021 5:29:21 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:21 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:21 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:21 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:21 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@9b21bd3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@a62c7cd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7661b5a]
+Jan 11, 2021 5:29:21 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from URL [file:/home/lichengpeng/test/automated_script/funkygao/cp-ddd-framework/dddplus-test/target/test-classes/spring-test.xml]
+Jan 11, 2021 5:29:22 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@1deceb67: startup date [Mon Jan 11 17:29:22 CST 2021]; root of context hierarchy
+Jan 11, 2021 5:29:22 PM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-01-11 17:29:22,348 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-01-11 17:29:22,542 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-01-11 17:29:22,544 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-01-11 17:29:22,548 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-01-11 17:29:22,552 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-01-11 17:29:22,556 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-01-11 17:29:22,717 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-01-11 17:29:22,747 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-01-11 17:29:22,750 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-01-11 17:29:22,753 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+2021-01-11 17:29:22,762 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Extension's ...
+2021-01-11 17:29:22,790 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [47] - all DDD beans registered, cost 248ms
+Jan 11, 2021 5:29:22 PM org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor initialize
+INFO: Initializing ExecutorService  'asyncStepsExecutor'
+Jan 11, 2021 5:29:22 PM org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor initialize
+INFO: Initializing ExecutorService  'asyncStepsExecutorAutoDiscard'
+2021-01-11 17:29:22,842 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [55] - Spring started complete!
+2021-01-11 17:29:22,858 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:22,859 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=true, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:22,859 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:22,859 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=true, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:22,860 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,860 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,860 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,861 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,861 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,861 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,861 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,861 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,862 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,862 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,862 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,862 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,863 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,863 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,863 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,863 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,864 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,864 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,864 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,864 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,865 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,865 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,865 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,865 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,866 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,866 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,866 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,867 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,867 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,867 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,867 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,867 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,868 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,868 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,868 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,868 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,869 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,869 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,869 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,869 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,870 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,870 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,870 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,870 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,871 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,871 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,871 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,871 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,871 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,872 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,872 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,872 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,872 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,873 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,873 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,873 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,873 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,874 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,874 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,874 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,874 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,874 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,875 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,875 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,875 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,875 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,876 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,876 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,876 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,876 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,876 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,877 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,877 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,877 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,877 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,877 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,878 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,878 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,878 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,878 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,878 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,879 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,879 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,879 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,879 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,879 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,880 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,880 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,880 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,880 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,880 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,881 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,881 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,881 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,881 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,882 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,882 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,882 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,882 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,882 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,883 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,883 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,883 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,883 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,883 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,884 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,884 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,884 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,884 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,884 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,885 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,885 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,885 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,886 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,886 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,886 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,887 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,887 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,887 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,887 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,887 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,888 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,888 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,888 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,888 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,889 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,889 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,889 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,889 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,889 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,890 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,890 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,890 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,890 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,890 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,891 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,891 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,891 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,891 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,891 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,892 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,892 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,892 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,892 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,893 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,893 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,893 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,893 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,893 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,894 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,894 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,894 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,894 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,894 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,895 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,895 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,895 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,895 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,895 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,896 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,896 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,896 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,896 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,896 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,896 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,897 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,897 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,897 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,897 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,897 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,898 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,898 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,898 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,898 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,898 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,899 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,899 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,899 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,899 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,900 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,900 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,900 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,900 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,901 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,901 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,901 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,901 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,901 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,902 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,902 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,902 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,902 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,902 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,903 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,903 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,903 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,903 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:22,903 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-01-11 17:29:22,904 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [99] - Steps revision seem to encounter dead loop, abort after 100 model:FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=true, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+Jan 11, 2021 5:29:22 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:22 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:22 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:22 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:22 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5a515e5d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@423a0e1d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32f32623]
+2021-01-11 17:29:22,910 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:22,910 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=true, foo=0)
+2021-01-11 17:29:22,910 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:22,910 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=true, foo=0)
+2021-01-11 17:29:23,013 [main] ERROR [io.github.dddplus.runtime.ExtensionInvocationHandler] [103] - timed out:100ms, io.github.dddplus.runtime.registry.mock.extension.DefaultSleepExt@746c411c method:sleep args:[1]
+2021-01-11 17:29:23,014 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [143] - Step:Submit.Foo fails for [Baz, Foo, Bar]
+io.github.dddplus.runtime.ExtTimeoutException: timeout:100ms
+	at io.github.dddplus.runtime.ExtensionInvocationHandler.invokeExtension(ExtensionInvocationHandler.java:105) ~[classes/:?]
+	at io.github.dddplus.runtime.ExtensionInvocationHandler.invoke(ExtensionInvocationHandler.java:78) ~[classes/:?]
+	at com.sun.proxy.$Proxy86.sleep(Unknown Source) ~[?:?]
+	at io.github.dddplus.runtime.registry.mock.ability.SleepAbility.sleepTooLong(SleepAbility.java:22) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep.execute(FooStep.java:23) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep.execute(FooStep.java:13) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep$$FastClassBySpringCGLIB$$5ed2824c.invoke(<generated>) ~[test-classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect.around(DomainProfilerAspect.java:28) ~[test-classes/:?]
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep$$EnhancerBySpringCGLIB$$fe8af92f.execute(<generated>) ~[test-classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.executeSteps(StepsExecTemplate.java:125) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:87) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:52) ~[classes/:?]
+	at io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateOneStepTimeoutWillNotRollback(IntegrationTest.java:400) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner$4.evaluate(JUnitTestRunner.java:383) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:351) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109) ~[testrunner-running-1.0.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.1.jar:4.13.1]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30) ~[testrunner-running-1.0.jar:?]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12) [scala-library-2.12.6.jar:?]
+	at scala.util.Try$.apply(Try.scala:209) [scala-library-2.12.6.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala) [testrunner-running-1.0.jar:?]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@574059d5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6d672bd4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67770b37]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@83bb0f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@25a94b55, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6adc5b9c]
+2021-01-11 17:29:23,034 [main] INFO  [io.github.dddplus.runtime.registry.mock.extension.B2CExt] [16] - 2
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@10244722, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@61615b4a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@721d8ab5]
+2021-01-11 17:29:23,038 [main] INFO  [io.github.dddplus.runtime.registry.IntegrationTest] [514] - steps: [Baz, Foo, Bar]
+2021-01-11 17:29:23,039 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:23,039 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=true, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,039 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:23,039 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=true, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,039 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:23,040 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [143] - Step:Submit.Bar fails for [Baz, Foo, Bar]
+java.lang.RuntimeException: Will not rollback
+	at io.github.dddplus.runtime.registry.mock.step.BarStep.execute(BarStep.java:50) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.BarStep.execute(BarStep.java:16) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.BarStep$$FastClassBySpringCGLIB$$73800319.invoke(<generated>) ~[test-classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect.around(DomainProfilerAspect.java:28) ~[test-classes/:?]
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.step.BarStep$$EnhancerBySpringCGLIB$$888fe3b6.execute(<generated>) ~[test-classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.executeSteps(StepsExecTemplate.java:125) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:87) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:52) ~[classes/:?]
+	at io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateWithInvalidRollback(IntegrationTest.java:516) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner$4.evaluate(JUnitTestRunner.java:383) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:351) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109) ~[testrunner-running-1.0.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.1.jar:4.13.1]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30) ~[testrunner-running-1.0.jar:?]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12) [scala-library-2.12.6.jar:?]
+	at scala.util.Try$.apply(Try.scala:209) [scala-library-2.12.6.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala) [testrunner-running-1.0.jar:?]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13bdf540, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@526e8108, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4dcbae55]
+2021-01-11 17:29:23,046 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:23,046 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,047 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:23,047 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,047 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:23,047 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BarStep] [43] - 重新编排步骤，增加步骤：[Baz, Ham]
+2021-01-11 17:29:23,048 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Baz, Ham]
+2021-01-11 17:29:23,048 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:23,048 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,048 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.HamStep] [16] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,048 [main] WARN  [io.github.dddplus.runtime.StepsExecTemplate] [79] - Empty steps of activity:Submit on FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,048 [main] WARN  [io.github.dddplus.runtime.StepsExecTemplate] [79] - Empty steps of activity:Submit on FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=true, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1fd7a37, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5b202ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@58a84a12]
+2021-01-11 17:29:23,092 [main] INFO  [io.github.dddplus.runtime.registry.mock.extension.B2CExt] [16] - 2
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39dec536, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a1a256d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4cb957b8]
+2021-01-11 17:29:23,100 [main] WARN  [io.github.dddplus.runtime.registry.InternalIndexer] [172] - expected:3, got:2 domain steps
+2021-01-11 17:29:23,100 [main] INFO  [io.github.dddplus.runtime.registry.IntegrationTest] [174] - will execute steps...
+2021-01-11 17:29:23,100 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:23,101 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=unit test, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,101 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@41f4039e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5ff00507, org.springframework.test.context.support.DirtiesContextTestExecutionListener@603cabc4]
+2021-01-11 17:29:23,107 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.EggStep] [16] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=true, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@331ff3ac, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e5e6fc4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2785db06]
+2021-01-11 17:29:23,111 [main] WARN  [io.github.dddplus.runtime.registry.InternalIndexer] [172] - expected:1, got:0 domain steps
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7fda2001, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@162c1dfb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@21ae657b]
+2021-01-11 17:29:23,616 [main] ERROR [io.github.dddplus.runtime.ExtensionInvocationHandler] [103] - timed out:500ms, io.github.dddplus.runtime.registry.mock.extension.B2BExt@7698b7a4 method:execute args:[FooModel(partnerCode=, b2c=false, letFooThrowException=false, willSleepLong=true, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2287395, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@535a518c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38f981b6]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4538856f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4c3de38e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74b86971]
+2021-01-11 17:29:23,626 [main] WARN  [io.github.dddplus.runtime.registry.InternalIndexer] [172] - expected:3, got:2 domain steps
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@629a9f26, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@b791a81, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4391a2d8]
+2021-01-11 17:29:23,632 [step-1] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:23,632 [step-2] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:23,633 [step-1] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=true, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,633 [step-2] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=true, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,632 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [143] - Step:Submit.Bar fails for [Baz, Foo, Bar]
+org.springframework.core.task.TaskRejectedException: Executor [java.util.concurrent.ThreadPoolExecutor@1e1232cf[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]] did not accept task: io.github.dddplus.runtime.StepsExecTemplate$$Lambda$57/677926378@fd413fb
+	at org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.execute(ThreadPoolTaskExecutor.java:296) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.StepsExecTemplate.asyncExecuteStep(StepsExecTemplate.java:171) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.executeSteps(StepsExecTemplate.java:123) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:87) ~[classes/:?]
+	at io.github.dddplus.runtime.registry.IntegrationTest.asyncStepThreadPoolFullCase(IntegrationTest.java:438) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner$4.evaluate(JUnitTestRunner.java:383) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:351) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109) ~[testrunner-running-1.0.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.1.jar:4.13.1]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30) ~[testrunner-running-1.0.jar:?]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12) [scala-library-2.12.6.jar:?]
+	at scala.util.Try$.apply(Try.scala:209) [scala-library-2.12.6.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala) [testrunner-running-1.0.jar:?]
+Caused by: java.util.concurrent.RejectedExecutionException: Task io.github.dddplus.runtime.StepsExecTemplate$$Lambda$57/677926378@fd413fb rejected from java.util.concurrent.ThreadPoolExecutor@1e1232cf[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[?:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) ~[?:1.8.0_262]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) ~[?:1.8.0_262]
+	at org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.execute(ThreadPoolTaskExecutor.java:293) ~[spring-context-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	... 43 more
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6fe595dc, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5af5d76f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a8cea24]
+2021-01-11 17:29:23,640 [main] INFO  [io.github.dddplus.runtime.registry.mock.policy.TriggerExtPolicy] [26] - will return invalid extensionCode
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@261bd7b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6f9e08d4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@390037e7]
+2021-01-11 17:29:23,646 [main] INFO  [io.github.dddplus.runtime.registry.mock.policy.TriggerExtPolicy] [18] - will use foo
+2021-01-11 17:29:23,646 [main] INFO  [io.github.dddplus.runtime.registry.mock.extension.FooTriggerExt] [14] - foo trigger
+2021-01-11 17:29:23,652 [main] INFO  [io.github.dddplus.runtime.registry.mock.policy.TriggerExtPolicy] [22] - will use bar
+2021-01-11 17:29:23,653 [main] INFO  [io.github.dddplus.runtime.registry.mock.extension.BarTriggerExt] [14] - bar trigger
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b0c3951, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@60f77af, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2574a9e3]
+2021-01-11 17:29:23,657 [main] INFO  [io.github.dddplus.runtime.registry.mock.extension.B2CExt] [16] - 2
+2021-01-11 17:29:23,657 [main] INFO  [io.github.dddplus.runtime.registry.mock.extension.B2CExt] [16] - 2
+2021-01-11 17:29:23,657 [main] INFO  [io.github.dddplus.runtime.registry.mock.service.FooDomainService] [17] - submit received: 2, firstExt got: 2
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+INFO: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+Jan 11, 2021 5:29:23 PM org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1de4bee0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3ece79fe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc79c02]
+2021-01-11 17:29:23,661 [main] INFO  [io.github.dddplus.runtime.registry.IntegrationTest] [496] - steps: [Baz, Foo, Bar]
+2021-01-11 17:29:23,662 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-01-11 17:29:23,662 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=true, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,662 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-01-11 17:29:23,662 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=true, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,663 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-01-11 17:29:23,663 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [143] - Step:Submit.Bar fails for [Baz, Foo, Bar]
+io.github.dddplus.runtime.registry.mock.exception.FooException: rollback on purpose
+	at io.github.dddplus.runtime.registry.mock.step.BarStep.execute(BarStep.java:55) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.BarStep.execute(BarStep.java:16) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.BarStep$$FastClassBySpringCGLIB$$73800319.invoke(<generated>) ~[test-classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect.around(DomainProfilerAspect.java:28) ~[test-classes/:?]
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.step.BarStep$$EnhancerBySpringCGLIB$$888fe3b6.execute(<generated>) ~[test-classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.executeSteps(StepsExecTemplate.java:125) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:87) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:52) ~[classes/:?]
+	at io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateWithRollback(IntegrationTest.java:498) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner$4.evaluate(JUnitTestRunner.java:383) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:351) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109) ~[testrunner-running-1.0.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.1.jar:4.13.1]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30) ~[testrunner-running-1.0.jar:?]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12) [scala-library-2.12.6.jar:?]
+	at scala.util.Try$.apply(Try.scala:209) [scala-library-2.12.6.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala) [testrunner-running-1.0.jar:?]
+2021-01-11 17:29:23,665 [main] WARN  [io.github.dddplus.runtime.registry.mock.step.FooStep] [41] - foo rollback, cause: rollback on purpose
+2021-01-11 17:29:23,666 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [219] - step:Foo rollback err ignored, model:FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=true, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+java.lang.RuntimeException: this exception will be ignored by StepsExecTemplate
+	at io.github.dddplus.runtime.registry.mock.step.FooStep.rollback(FooStep.java:48) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep.rollback(FooStep.java:13) ~[test-classes/:?]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep$$FastClassBySpringCGLIB$$5ed2824c.invoke(<generated>) ~[test-classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673) ~[spring-aop-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at io.github.dddplus.runtime.registry.mock.step.FooStep$$EnhancerBySpringCGLIB$$fe8af92f.rollback(<generated>) ~[test-classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.safeRollbackExecutedSteps(StepsExecTemplate.java:217) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.executeSteps(StepsExecTemplate.java:155) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:87) ~[classes/:?]
+	at io.github.dddplus.runtime.StepsExecTemplate.execute(StepsExecTemplate.java:52) ~[classes/:?]
+	at io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateWithRollback(IntegrationTest.java:498) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_262]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_262]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_262]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_262]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.1.jar:4.13.1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.1.jar:4.13.1]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) ~[spring-test-4.3.12.RELEASE.jar:4.3.12.RELEASE]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner$4.evaluate(JUnitTestRunner.java:383) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:351) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109) ~[testrunner-running-1.0.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) ~[junit-4.13.1.jar:4.13.1]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47) ~[testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30) ~[testrunner-running-1.0.jar:?]
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12) [scala-library-2.12.6.jar:?]
+	at scala.util.Try$.apply(Try.scala:209) [scala-library-2.12.6.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18) [testrunner-running-1.0.jar:?]
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala) [testrunner-running-1.0.jar:?]
+2021-01-11 17:29:23,667 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [30] - baz rollback for FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=false, stepsRevised=false, willRollback=true, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-01-11 17:29:23,685 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [59] - 1 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [59] - 2 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [59] - 3 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [59] - 4 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [59] - 5 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [66] - 1 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [66] - 2 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,686 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [66] - 3 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,687 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [66] - 4 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,687 [main] INFO  [io.github.dddplus.runtime.NamedThreadFactoryTest] [66] - 5 [foo-0-T-1, foo-0-T-2, foo-0-T-3, foo-0-T-4, foo-0-T-5] [foo-1-T-1, foo-1-T-2, foo-1-T-3, foo-1-T-4, foo-1-T-5]
+2021-01-11 17:29:23,689 [main] ERROR [io.github.dddplus.specification.SpecificationTest] [46] - specification:io.github.dddplus.specification.mock.B2CMustHavePartnerCode
+2021-01-11 17:29:24,391 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [17] - Hello
+2021-01-11 17:29:24,394 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [20] - World
+2021-01-11 17:29:24,394 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [24] - DDDplus Framework
+2021-01-11 17:29:24,394 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [27] - a
+2021-01-11 17:29:24,394 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [28] - b
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.serviceWithInvalidDomain
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupDomain
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupPolicy
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupPattern
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupStep
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupPartner
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.abilityWithInvalidDomain

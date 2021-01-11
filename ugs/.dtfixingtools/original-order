@@ -1,0 +1,4 @@
+com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+com.willwinder.ugs.nbp.S3FileSystemViewTest.testUploadDownloadFile
+com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles_buckets
+com.willwinder.ugs.nbp.S3FileSystemViewTest.testS3VirtualFileDir

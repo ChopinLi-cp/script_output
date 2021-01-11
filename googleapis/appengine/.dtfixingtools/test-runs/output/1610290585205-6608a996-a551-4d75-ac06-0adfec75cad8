@@ -1,0 +1,4 @@
+Jan 10, 2021 10:56:25 PM com.google.auth.appengine.AppEngineCredentials getApplicationDefault
+WARNING: You are attempting to fetch Application Default Credentials from com.google.auth.appengine.AppEngineCredentials. This method will not return a com.google.auth.appengine.AppEngineCredentials instance.
+Jan 10, 2021 10:56:26 PM com.google.auth.appengine.AppEngineCredentials getApplicationDefault
+WARNING: You are attempting to fetch Application Default Credentials from com.google.auth.appengine.AppEngineCredentials. This method will not return a com.google.auth.appengine.AppEngineCredentials instance.

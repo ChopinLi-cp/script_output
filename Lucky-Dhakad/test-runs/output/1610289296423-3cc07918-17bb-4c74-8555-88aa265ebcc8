@@ -1,0 +1,76 @@
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Found vector for 'abraham'
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting dimension of target config to: 200
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting dimension of target config to: 3
+Writing term vectors to tmp/testtermvectors.bin
+About to write 2 vectors of dimension 3 to Lucene format file: tmp/testtermvectors.bin ... finished writing vectors.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains positional_index. Please delete if you want to run from clean.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains predication_index. Please delete if you want to run from clean.
+Seedlength: 10, Dimension: 200, Vector type: REAL, Minimum frequency: 0, Maximum frequency: 2147483647, Number non-alphabet characters: 2147483647, Contents fields are: [contents]
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Creating term vectors as superpositions of elemental document vectors ... 
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Creating semantic term vectors ...
+There are 1368 terms (and 21 docs).
+Training term vectors for field contents
+Processed 0 terms ... Processed 1000 terms ... 
+Created 1368 term vectors.
+Initializing new document vector store ... 
+Building document vectors ... Processed 0 terms ... Processed 1000 terms ... 
+Normalizing doc vectors ...
+Writing term vectors to termvectors
+About to write 1368 vectors of dimension 200 to Lucene format file: termvectors.bin ... finished writing vectors.
+Writing doc vectors to docvectors
+About to write 21 vectors of dimension 200 to Lucene format file: docvectors.bin ... finished writing vectors.
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Found vector for 'mary'
+Found vector for 'jesus'
+Found vector for 'word'
+Found vector for 'peter'
+Found vector for 'light'
+finished writing vectors.
+Found vector for 'abraham'
+Found vector for 'isaac'
+No vector for '~NOT'
+ComplexVector.  Cartesian. Coordinates are:
+0.60000306 0.7999977 0.80022776 0.5996962 0.80022776 0.5996962 6.123234E-17 1.0 
+
+Jan 10, 2021 10:34:57 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'
+0 4096 12288 

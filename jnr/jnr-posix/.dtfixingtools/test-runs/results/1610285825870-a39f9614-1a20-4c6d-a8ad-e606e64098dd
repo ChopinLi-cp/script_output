@@ -1,0 +1,1 @@
+{"id":"1610285825870-a39f9614-1a20-4c6d-a8ad-e606e64098dd","testOrder":["jnr.posix.GroupTest.getgroups"],"results":{"jnr.posix.GroupTest.getgroups":{"name":"jnr.posix.GroupTest.getgroups","result":"PASS","time":0.331214047,"stackTrace":[]}},"diffs":{}}

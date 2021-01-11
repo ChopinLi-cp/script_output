@@ -1,0 +1,17 @@
+STATUS: INLINE SUCCESSFUL
+MODIFIED: pitt.search.semanticvectors.vectors.ComplexVectorTest.testComplexOrthogonalize
+MODIFIED FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/vectors/ComplexVectorTest.java
+CLEANER: pitt.search.semanticvectors.vectors.ComplexVectorTest.testSuperposeZeroOnSparse
+CLEANER FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/vectors/ComplexVectorTest.java
+POLLUTER: pitt.search.semanticvectors.CompareTermsTest.testCompareTermsComplexFlatOrthographic
+POLLUTER FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/CompareTermsTest.java
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 3
+ELAPSED TIME: 160.6840000152588
+==========================
+@@ -224,0 +224,5 @@
++ {
++     int dim = 4;
++     int seedLength = 2;
++     ComplexVector cv1 = (ComplexVector) VectorFactory.generateRandomVector(VectorType.COMPLEX, dim, seedLength, new Random(0));
++ }

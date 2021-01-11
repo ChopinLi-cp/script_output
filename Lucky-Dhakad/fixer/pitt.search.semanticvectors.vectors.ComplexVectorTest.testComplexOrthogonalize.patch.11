@@ -1,0 +1,15 @@
+STATUS: INLINE SUCCESSFUL
+MODIFIED: pitt.search.semanticvectors.vectors.ComplexVectorTest.testComplexOrthogonalize
+MODIFIED FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/vectors/ComplexVectorTest.java
+CLEANER: pitt.search.semanticvectors.vectors.ComplexVectorTest.testNormalize
+CLEANER FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/vectors/ComplexVectorTest.java
+POLLUTER: pitt.search.semanticvectors.CompareTermsTest.testCompareTermsComplexFlatOrthographic
+POLLUTER FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/CompareTermsTest.java
+ORIGINAL CLEANER SIZE: 10
+NEW CLEANER SIZE: 1
+ELAPSED TIME: 54.47099995613098
+==========================
+@@ -224,0 +224,3 @@
++ {
++     ComplexVector.setDominantMode(Mode.POLAR_DENSE);
++ }

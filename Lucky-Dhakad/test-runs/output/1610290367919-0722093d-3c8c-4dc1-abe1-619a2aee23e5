@@ -1,0 +1,25 @@
+Setting dimension of target config to: 3
+Writing term vectors to tmp/testtermvectors.bin
+About to write 2 vectors of dimension 3 to Lucene format file: tmp/testtermvectors.bin ... finished writing vectors.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains positional_index. Please delete if you want to run from clean.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains predication_index. Please delete if you want to run from clean.
+Seedlength: 10, Dimension: 200, Vector type: COMPLEX, Minimum frequency: 0, Maximum frequency: 2147483647, Number non-alphabet characters: 2147483647, Contents fields are: [contents]
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Creating term vectors as superpositions of elemental document vectors ... 
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Creating semantic term vectors ...
+There are 1368 terms (and 21 docs).
+Training term vectors for field contents
+Processed 0 terms ... Processed 1000 terms ... 
+Created 1368 term vectors.
+Initializing new document vector store ... 
+Building document vectors ... Processed 0 terms ... Processed 1000 terms ... 
+Normalizing doc vectors ...
+Writing term vectors to termvectors
+About to write 1368 vectors of dimension 200 to Lucene format file: termvectors.bin ... finished writing vectors.
+Writing doc vectors to docvectors
+About to write 21 vectors of dimension 200 to Lucene format file: docvectors.bin ... finished writing vectors.
+Opening query vector store from file: termvectors
+Setting vectortype of target config to: COMPLEX
+Searching term vectors, searchtype SUM
+Found vector for 'peter'

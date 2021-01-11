@@ -1,0 +1,21 @@
+Jan 10, 2021 10:51:35 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Setting dimension of target config to: 3
+Writing term vectors to tmp/testtermvectors.bin
+About to write 2 vectors of dimension 3 to Lucene format file: tmp/testtermvectors.bin ... finished writing vectors.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains positional_index. Please delete if you want to run from clean.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains predication_index. Please delete if you want to run from clean.
+Building positional index, Lucene index: positional_index, Seedlength: 10, Vector length: 200, Vector type: COMPLEX, Minimum term frequency: 0, Maximum term frequency: 2147483647, Number non-alphabet characters: 2147483647, Window radius: 5, Fields to index: [contents]
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Jan 10, 2021 10:51:36 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'
+There are now elemental term vectors for 1368 terms (and 21 docs).
+Processed 0 documents ... Created 1368 term vectors ...
+Normalizing term vectors.
+About to write 1368 vectors of dimension 200 to Lucene format file: termtermvectors.bin ... finished writing vectors.
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Writing vectors incrementally to file docvectors.bin ... Finished writing vectors.
+Opening query vector store from file: termtermvectors.bin
+Setting vectortype of target config to: COMPLEX
+Searching term vectors, searchtype SUM
+Found vector for 'simon'

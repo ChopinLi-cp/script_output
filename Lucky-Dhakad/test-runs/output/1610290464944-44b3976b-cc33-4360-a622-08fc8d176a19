@@ -1,0 +1,24 @@
+Jan 10, 2021 10:54:25 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Building PSI model from index in: predication_index
+Minimum frequency = 0
+Maximum frequency = 2147483647
+Number non-alphabet characters = 20
+Initialized LuceneUtils from Lucene index in directory: predication_index
+Jan 10, 2021 10:54:25 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'
+About to write 825 vectors of dimension 1000 to Lucene format file: elementalvectors.bin ... finished writing vectors.
+About to write 825 vectors of dimension 1000 to Lucene format file: semanticvectors.bin ... finished writing vectors.
+About to write 6 vectors of dimension 1000 to Lucene format file: predicatevectors.bin ... finished writing vectors.
+Finished writing vectors.
+Opening query vector store from file: semanticvectors.bin
+Setting dimension of target config to: 1000
+Setting vectortype of target config to: COMPLEX
+Opening second query vector store from file: predicatevectors.bin
+Opening search vector store from file: elementalvectors.bin
+Searching term vectors, searchtype BOUNDPRODUCT
+Found vector for 'mexico'
+Found vector for 'HAS_CURRENCY'
+Deleting file: elementalvectors.bin
+Deleting file: predicatevectors.bin
+Deleting file: semanticvectors.bin

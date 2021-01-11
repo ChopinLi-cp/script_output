@@ -1,0 +1,1 @@
+{"id":"1610285674830-366a1f32-71f3-4557-8961-9f2ada2339c7","testOrder":["jnr.posix.NlLanginfoTest.testNlLanginfo"],"results":{"jnr.posix.NlLanginfoTest.testNlLanginfo":{"name":"jnr.posix.NlLanginfoTest.testNlLanginfo","result":"PASS","time":0.349597509,"stackTrace":[]}},"diffs":{}}

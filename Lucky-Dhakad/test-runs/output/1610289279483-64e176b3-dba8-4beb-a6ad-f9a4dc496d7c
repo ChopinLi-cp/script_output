@@ -1,0 +1,20 @@
+Jan 10, 2021 10:34:40 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Jan 10, 2021 10:34:40 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'
+Jan 10, 2021 10:34:40 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Changing to string type because did not parse as following as number: 'three'.
+Spec was: Type: DOUBLE Min: -2.0 Max: 1.0
+Changing to string type because did not parse as following as number: 'a'.
+Spec was: Type: DOUBLE Min: 1.7976931348623157E308 Max: 4.9E-324
+Type: STRING
+Type: DOUBLE Min: 1600.0 Max: 1700.0
+Type: DOUBLE Min: 1700.0 Max: 1800.0
+1600 : 1.0
+1620 : 0.18287642300128937
+1640 : 0.15108270943164825
+1660 : 0.18331307172775269
+1680 : 0.16316942870616913
+1700 : 0.16853243112564087
+No vector for '~NOT'

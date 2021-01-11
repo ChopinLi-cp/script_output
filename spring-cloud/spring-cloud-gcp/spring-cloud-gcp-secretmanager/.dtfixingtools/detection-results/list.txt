@@ -1,0 +1,3 @@
+org.springframework.cloud.gcp.secretmanager.it.SecretManagerPropertySourceIntegrationTests.testConfiguration
+org.springframework.cloud.gcp.secretmanager.it.SecretManagerPropertySourceIntegrationTests.testMissingSecret
+org.springframework.cloud.gcp.secretmanager.it.SecretManagerPropertySourceIntegrationTests.testValueAnnotation

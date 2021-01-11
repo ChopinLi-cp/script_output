@@ -1,0 +1,12 @@
+com.google.auth.appengine.AppEngineCredentialsTest.equals_false_scopes
+com.google.auth.appengine.AppEngineCredentialsTest.warnsDefaultCredentials
+com.google.auth.appengine.AppEngineCredentialsTest.toString_containsFields
+com.google.auth.appengine.AppEngineCredentialsTest.sign_sameAs
+com.google.auth.appengine.AppEngineCredentialsTest.equals_true
+com.google.auth.appengine.AppEngineCredentialsTest.constructor_usesAppIdentityService
+com.google.auth.appengine.AppEngineCredentialsTest.serialize
+com.google.auth.appengine.AppEngineCredentialsTest.createScoped_clonesWithScopes
+com.google.auth.appengine.AppEngineCredentialsTest.getAccount_sameAs
+com.google.auth.appengine.AppEngineCredentialsTest.warnsDefaultCredentialsWithTransport
+com.google.auth.appengine.AppEngineCredentialsTest.refreshAccessToken_sameAs
+com.google.auth.appengine.AppEngineCredentialsTest.hashCode_equals

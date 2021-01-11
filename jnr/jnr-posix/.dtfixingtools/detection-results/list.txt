@@ -1,0 +1,4 @@
+jnr.posix.NlLanginfoTest.testNlLanginfo
+jnr.posix.GroupTest.getgroups
+jnr.posix.SpawnTest.inputPipe
+jnr.posix.SpawnTest.outputPipe

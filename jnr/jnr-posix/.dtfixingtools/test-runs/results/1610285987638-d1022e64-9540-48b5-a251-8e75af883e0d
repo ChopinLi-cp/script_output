@@ -1,0 +1,1 @@
+{"id":"1610285987638-d1022e64-9540-48b5-a251-8e75af883e0d","testOrder":["jnr.posix.SpawnTest.inputPipe"],"results":{"jnr.posix.SpawnTest.inputPipe":{"name":"jnr.posix.SpawnTest.inputPipe","result":"PASS","time":0.346389329,"stackTrace":[]}},"diffs":{}}

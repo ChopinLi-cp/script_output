@@ -1,0 +1,10 @@
+Jan 10, 2021 10:37:23 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Jan 10, 2021 10:37:23 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Jan 10, 2021 10:37:23 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'POLAR_DENSE'
+-->0.008059127256274223
+finished writing vectors.
+Found vector for 'abraham'
+Found vector for 'isaac'

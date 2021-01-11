@@ -1,0 +1,16 @@
+STATUS: INLINE FAIL
+MODIFIED: pitt.search.semanticvectors.vectors.ComplexVectorTest.testComplexOrthogonalize
+MODIFIED FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/vectors/ComplexVectorTest.java
+CLEANER: pitt.search.semanticvectors.CompareTermsTest.testCompareTermsComplexOrthographic
+CLEANER FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/CompareTermsTest.java
+POLLUTER: pitt.search.semanticvectors.CompareTermsTest.testCompareTermsComplexFlatOrthographic
+POLLUTER FILE: /home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors/src/test/java/pitt/search/semanticvectors/CompareTermsTest.java
+ORIGINAL CLEANER SIZE: 13
+NEW CLEANER SIZE: 2
+ELAPSED TIME: 55.29299998283386
+==========================
+@@ -224,0 +224,4 @@
++ {
++     FlagConfig flagConfig = FlagConfig.parseFlagsFromString("-elementalmethod orthographic -vectortype complex -seedlength 100 foo bar");
++     double outcome = CompareTerms.runCompareTerms(flagConfig);
++ }

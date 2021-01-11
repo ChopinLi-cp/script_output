@@ -1,0 +1,215 @@
+No vector for '~NOT'
+Setting dimension of target config to: 3
+Writing term vectors to tmp/testtermvectors.bin
+About to write 2 vectors of dimension 3 to Lucene format file: tmp/testtermvectors.bin ... finished writing vectors.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains positional_index. Please delete if you want to run from clean.
+/home/lichengpeng/test/automated_script/Lucky-Dhakad/semanticvectors already contains predication_index. Please delete if you want to run from clean.
+Seedlength: 10, Dimension: 200, Vector type: REAL, Minimum frequency: 0, Maximum frequency: 2147483647, Number non-alphabet characters: 2147483647, Contents fields are: [contents]
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Creating term vectors as superpositions of elemental document vectors ... 
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Creating semantic term vectors ...
+There are 1368 terms (and 21 docs).
+Training term vectors for field contents
+Processed 0 terms ... Processed 1000 terms ... 
+Created 1368 term vectors.
+Initializing new document vector store ... 
+Building document vectors ... Processed 0 terms ... Processed 1000 terms ... 
+Normalizing doc vectors ...
+Writing term vectors to termvectors
+About to write 1368 vectors of dimension 200 to Lucene format file: termvectors.bin ... finished writing vectors.
+Writing doc vectors to docvectors
+About to write 21 vectors of dimension 200 to Lucene format file: docvectors.bin ... finished writing vectors.
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Opening query vector store from file: termvectors.bin
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Found vector for 'mary'
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.Search runSearch
+WARNING: Couldn't open Lucene index at permutation_index. Will continue without term weighting.
+Searching term vectors, searchtype SUM
+Found vector for 'jesus'
+Found vector for 'word'
+Found vector for 'peter'
+Found vector for 'light'
+No enum constant pitt.search.semanticvectors.vectors.VectorType.BANANA
+Accepted values for '-vectortype' are:
+[BINARY, REAL, COMPLEX, COMPLEXFLAT]
+
+-->0.008059127256274223
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.vectors.BinaryVector generateRandomVector
+SEVERE: Attempting to create binary vector with unequal number of zeros and ones. Unlikely to produce meaningful results. Therefore, seedlength has been set to  dimension/2, as recommended for binary vectors
+Initialized LuceneUtils from Lucene index in directory: positional_index
+Jan 10, 2021 10:34:22 PM pitt.search.semanticvectors.LSA <init>
+WARNING: Dimension for SVD cannot be greater than number of documents ... Setting dimension to 21
+Set up LSA indexer.
+Dimension: 21 Lucene index contents field: 'contents' Minimum frequency = 0 Maximum frequency = 2147483647 Number non-alphabet characters = 2147483647
+There are 1368 terms (and 21 docs).
+Starting SVD using algorithm LAS2 ...
+Wrote 1368 term vectors incrementally to file termvectors.
+Wrote 21 document vectors incrementally to file docvectors. Done.
+Opening query vector store from file: termvectors
+Setting dimension of target config to: 21
+Searching term vectors, searchtype SUM
+Found vector for 'simon'
+Opening query vector store from file: termvectors.bin
+Setting dimension of target config to: 21
+Opening search vector store from file: docvectors.bin
+Searching term vectors, searchtype SUM
+Found vector for 'pilate'
+Building PSI model from index in: predication_index
+Minimum frequency = 0
+Maximum frequency = 2147483647
+Number non-alphabet characters = 20
+Initialized LuceneUtils from Lucene index in directory: predication_index
+About to write 825 vectors of dimension 1000 to Lucene format file: elementalvectors.bin ... finished writing vectors.
+About to write 825 vectors of dimension 1000 to Lucene format file: semanticvectors.bin ... finished writing vectors.
+About to write 6 vectors of dimension 1000 to Lucene format file: predicatevectors.bin ... finished writing vectors.
+Finished writing vectors.
+Opening query vector store from file: semanticvectors.bin
+Setting dimension of target config to: 1000
+Setting vectortype of target config to: COMPLEX
+Opening second query vector store from file: predicatevectors.bin
+Opening search vector store from file: elementalvectors.bin
+Searching term vectors, searchtype BOUNDPRODUCT
+Found vector for 'mexico'
+Found vector for 'HAS_CURRENCY'
+Deleting file: elementalvectors.bin
+Deleting file: predicatevectors.bin
+Deleting file: semanticvectors.bin
+Building PSI model from index in: predication_index
+Minimum frequency = 0
+Maximum frequency = 2147483647
+Number non-alphabet characters = 20
+Initialized LuceneUtils from Lucene index in directory: predication_index
+About to write 825 vectors of dimension 1000 to Lucene format file: elementalvectors.bin ... finished writing vectors.
+About to write 825 vectors of dimension 1000 to Lucene format file: semanticvectors.bin ... finished writing vectors.
+About to write 6 vectors of dimension 1000 to Lucene format file: predicatevectors.bin ... finished writing vectors.
+Finished writing vectors.
+Opening query vector store from file: semanticvectors.bin
+Setting dimension of target config to: 1000
+Opening second query vector store from file: predicatevectors.bin
+Opening search vector store from file: elementalvectors.bin
+Searching term vectors, searchtype BOUNDPRODUCT
+Found vector for 'mexico'
+Found vector for 'HAS_CURRENCY'
+Deleting file: elementalvectors.bin
+Deleting file: predicatevectors.bin
+Deleting file: semanticvectors.bin
+Building PSI model from index in: predication_index
+Minimum frequency = 0
+Maximum frequency = 2147483647
+Number non-alphabet characters = 20
+Initialized LuceneUtils from Lucene index in directory: predication_index
+About to write 825 vectors of dimension 4096 to Lucene format file: elementalvectors.bin ... finished writing vectors.
+About to write 825 vectors of dimension 4096 to Lucene format file: semanticvectors.bin ... finished writing vectors.
+About to write 6 vectors of dimension 4096 to Lucene format file: predicatevectors.bin ... finished writing vectors.
+Finished writing vectors.
+Opening query vector store from file: semanticvectors.bin
+Setting dimension of target config to: 4096
+Setting vectortype of target config to: BINARY
+Opening second query vector store from file: predicatevectors.bin
+Opening search vector store from file: elementalvectors.bin
+Searching term vectors, searchtype BOUNDPRODUCT
+Found vector for 'mexico'
+Found vector for 'HAS_CURRENCY'
+Deleting file: elementalvectors.bin
+Deleting file: predicatevectors.bin
+Deleting file: semanticvectors.bin
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Building PSI model from index in: predication_index
+Minimum frequency = 0
+Maximum frequency = 2147483647
+Number non-alphabet characters = 20
+Initialized LuceneUtils from Lucene index in directory: predication_index
+About to write 825 vectors of dimension 1000 to Lucene format file: elementalvectors.bin ... finished writing vectors.
+About to write 825 vectors of dimension 1000 to Lucene format file: semanticvectors.bin ... finished writing vectors.
+About to write 6 vectors of dimension 1000 to Lucene format file: predicatevectors.bin ... finished writing vectors.
+Finished writing vectors.
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Opening query vector store from file: semanticvectors.bin
+Setting dimension of target config to: 1000
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Opening second query vector store from file: predicatevectors.bin
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Opening search vector store from file: elementalvectors.bin
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Searching term vectors, searchtype BOUNDPRODUCT
+Found vector for 'mexico'
+Found vector for 'HAS_CURRENCY'
+Deleting file: elementalvectors.bin
+Deleting file: predicatevectors.bin
+Deleting file: semanticvectors.bin
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.RealVector setBindType
+INFO: Globally setting real vector BIND_METHOD to: 'PERMUTATION'
+Jan 10, 2021 10:34:27 PM pitt.search.semanticvectors.vectors.ComplexVector setDominantMode
+INFO: Globally setting complex DOMINANT_MODE to: 'CARTESIAN'
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting dimension of target config to: 200
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Setting up pitt.search.semanticvectors.VectorStoreReaderLuceneTest
+finished writing vectors.
+Found vector for 'abraham'
+Changing to string type because did not parse as following as number: 'three'.
+Spec was: Type: DOUBLE Min: -2.0 Max: 1.0
+java.lang.AssertionError: actual array was null
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:66)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:32)
+	at org.junit.Assert.internalArrayEquals(Assert.java:473)
+	at org.junit.Assert.assertArrayEquals(Assert.java:344)
+	at org.junit.Assert.assertArrayEquals(Assert.java:355)
+	at pitt.search.semanticvectors.vectors.ComplexVectorTest.testComplexOrthogonalize(ComplexVectorTest.java:229)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
