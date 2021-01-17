@@ -1,0 +1,12 @@
+org.jitsi.jicofo.AdvertiseSSRCsTest.testOneToOneConference
+org.jitsi.jicofo.AdvertiseSSRCsTest.testDuplicatedSSRCs
+org.jitsi.jicofo.LeakingRoomsTest.testOneToOneConference
+org.jitsi.jicofo.AdvertiseSSRCsTest.testSSRCLimit
+org.jitsi.jicofo.ColibriThreadingTest.testColibriMultiThreading
+org.jitsi.jicofo.auth.XMPPAuthenticationAuthorityTest.testXmppDomainAuthentication
+org.jitsi.jicofo.XmppTest.testAllocateConference
+org.jitsi.jicofo.ColibriTest.testChannelAllocation
+org.jitsi.jicofo.bridge.BridgeSelectorTest.selectorTest
+org.jitsi.jicofo.BundleTest.testBundle
+org.jitsi.jicofo.bridge.BridgeSelectorTest.notOperationalThresholdTest
+org.jitsi.jicofo.AdvertiseSSRCsTest.testSourceRemoval
