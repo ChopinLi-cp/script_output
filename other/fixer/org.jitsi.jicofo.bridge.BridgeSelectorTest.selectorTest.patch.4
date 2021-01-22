@@ -1,0 +1,86 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.jitsi.jicofo.ColibriThreadingTest.testColibriMultiThreading
+CLEANER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/ColibriThreadingTest.java
+POLLUTER: org.jitsi.jicofo.LeakingRoomsTest.testOneToOneConference
+POLLUTER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/LeakingRoomsTest.java
+ORIGINAL CLEANER SIZE: 33
+NEW CLEANER SIZE: 33
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,74 @@
++ {
++     {
++     }
++     {
++         try {
++             osgi.init();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     ProviderListener providerListener = new ProviderListener(FocusBundleActivator.bundleContext);
++     MockProtocolProvider mockProvider = (MockProtocolProvider) providerListener.obtainProvider(1000);
++     MockColibriOpSet colibriOpSet = mockProvider.getMockColibriOpSet();
++     Jid mockBridgeJid = JidCreate.from("jvb.example.com");
++     MockVideobridge mockBridge = new MockVideobridge(new MockXmppConnection(mockBridgeJid), mockBridgeJid);
++     mockBridge.start(osgi.bc);
++     AllocThreadingTestColibriConference colibriConf = colibriOpSet.createAllocThreadingConf();
++     colibriConf.setJitsiVideobridge(mockBridgeJid);
++     colibriConf.setName(JidCreate.entityBareFrom("foo@bar.com/zzz"));
++     colibriConf.blockConferenceCreator(true);
++     colibriConf.blockResponseReceive(true);
++     MockPeerAllocator[] allocators = new MockPeerAllocator[20];
++     List<String> endpointList = new ArrayList<>(allocators.length);
++     for (int i = 0; i < allocators.length; i++) {
++         String endpointId = "peer" + i;
++         allocators[i] = new MockPeerAllocator(endpointId, colibriConf);
++         endpointList.add(endpointId);
++         allocators[i].runChannelAllocation();
++     }
++     MockPeerAllocator creator = findCreator(colibriConf, Arrays.asList(allocators));
++     assertNotNull(creator);
++     assertEquals(0, colibriConf.allocRequestsSentCount());
++     colibriConf.resumeConferenceCreate();
++     creator.join();
++     // At this point conference should be created
++     assertEquals(1, mockBridge.getConferenceCount());
++     // sent their requests
++     List<String> requestsToBeSent = new ArrayList<>(endpointList);
++     while (!requestsToBeSent.isEmpty()) {
++         String endpoint = colibriConf.nextRequestSent(5);
++         if (endpoint == null) {
++             fail("Endpoints that have failed to " + "send their request: " + requestsToBeSent);
++         } else {
++             requestsToBeSent.remove(endpoint);
++         }
++     }
++     colibriConf.resumeResponses();
++     // Now wait for all responses to be received
++     List<String> responsesToReceive = new ArrayList<>(endpointList);
++     while (!responsesToReceive.isEmpty()) {
++         String endpoint = colibriConf.nextResponseReceived(5);
++         if (endpoint == null) {
++             fail("Endpoints that have failed to " + "send their request: " + requestsToBeSent);
++         } else {
++             responsesToReceive.remove(endpoint);
++         }
++     }
++     // Wait for all to finish
++     for (MockPeerAllocator allocator : allocators) {
++         allocator.join();
++     }
++     assertEquals(1, mockBridge.getConferenceCount());
++     assertEquals(allocators.length, mockBridge.getEndpointCount());
++     mockBridge.stop(osgi.bc);
++     {
++         try {
++             osgi.shutdown();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     {
++     }
++ }

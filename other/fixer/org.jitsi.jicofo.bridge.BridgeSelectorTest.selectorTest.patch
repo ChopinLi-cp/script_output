@@ -1,0 +1,95 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.jitsi.jicofo.AdvertiseSSRCsTest.testSSRCLimit
+CLEANER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/AdvertiseSSRCsTest.java
+POLLUTER: org.jitsi.jicofo.LeakingRoomsTest.testOneToOneConference
+POLLUTER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/LeakingRoomsTest.java
+ORIGINAL CLEANER SIZE: 54
+NEW CLEANER SIZE: 54
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,83 @@
++ {
++     {
++     }
++     {
++         try {
++             osgi.init();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     EntityBareJid roomName = JidCreate.entityBareFrom("testSSRCs@conference.pawel.jitsi.net");
++     String serverName = "test-server";
++     TestConference testConf = TestConference.allocate(osgi.bc, serverName, roomName);
++     MockProtocolProvider pps = testConf.getFocusProtocolProvider();
++     MockMultiUserChatOpSet mucOpSet = pps.getMockChatOpSet();
++     MockMultiUserChat chat = (MockMultiUserChat) mucOpSet.findRoom(roomName.toString());
++     // Join with all users
++     MockParticipant user1 = new MockParticipant("User1");
++     user1.join(chat);
++     user1.waitForJoinThread(5000);
++     MockParticipant user2 = new MockParticipant("User2");
++     user2.join(chat);
++     user2.waitForJoinThread(5000);
++     int maxSSRCs = ConferenceConfig.config.getMaxSsrcsPerUser();
++     // it later
++     int user1ExtraVideoSSRCCount = maxSSRCs / 2;
++     // User 2 will exceed SSRC limit on accept already
++     int user2ExtraVideoSSRCCount = maxSSRCs + 3;
++     user1.addMultipleVideoSSRCs(user1ExtraVideoSSRCCount);
++     user2.addMultipleVideoSSRCs(user2ExtraVideoSSRCCount);
++     // Audio: the opposite scenario
++     int user1ExtraAudioSSRCCount = maxSSRCs + 5;
++     int user2ExtraAudioSSRCCount = maxSSRCs / 2;
++     user1.addMultipleAudioSSRCs(user1ExtraAudioSSRCCount);
++     user2.addMultipleAudioSSRCs(user2ExtraAudioSSRCCount);
++     assertNotNull(user1.acceptInvite(10000));
++     assertNotNull(user2.acceptInvite(10000));
++     assertNotNull(user1.waitForAddSource(4000));
++     assertNotNull(user2.waitForAddSource(4000));
++     int expectedMax = 1 + /* jvb's mixed */
++     maxSSRCs;
++     // Verify User1's SSRCs seen by User2
++     assertEquals(1 + /* jvb's mixed */
++     1 + user1ExtraVideoSSRCCount, user2.getRemoteSSRCs("video").size());
++     assertEquals(expectedMax, user2.getRemoteSSRCs("audio").size());
++     // Verify User1's SSRCs seen by User1
++     assertEquals(expectedMax, user1.getRemoteSSRCs("video").size());
++     assertEquals(1 + /* jvb's mixed */
++     1 + user2ExtraAudioSSRCCount, user1.getRemoteSSRCs("audio").size());
++     // No groups
++     assertEquals(0, user2.getRemoteSSRCGroups("video").size());
++     assertEquals(0, user1.getRemoteSSRCGroups("video").size());
++     assertEquals(0, user2.getRemoteSSRCGroups("audio").size());
++     assertEquals(0, user1.getRemoteSSRCGroups("audio").size());
++     // User1 will have video SSRCs filled and audio are filled already
++     user1.videoSourceAdd(maxSSRCs / 2);
++     assertNotNull(user2.waitForAddSource(300));
++     assertEquals(expectedMax, user2.getRemoteSSRCs("video").size());
++     user1.audioSourceAdd(5);
++     assertNull(user2.waitForAddSource(300));
++     assertEquals(expectedMax, user2.getRemoteSSRCs("audio").size());
++     // User2 has video SSRCs filled already and audio will be filled
++     user2.videoSourceAdd(maxSSRCs / 2);
++     assertNull(user1.waitForAddSource(300));
++     assertEquals(expectedMax, user1.getRemoteSSRCs("video").size());
++     user2.audioSourceAdd(maxSSRCs / 2);
++     assertNotNull(user1.waitForAddSource(300));
++     assertEquals(expectedMax, user1.getRemoteSSRCs("audio").size());
++     user2.leave();
++     user1.leave();
++     // but the users leaving still want the bridge to disconnect properly
++     Thread.sleep(5000);
++     testConf.stop();
++     {
++         try {
++             osgi.shutdown();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     {
++     }
++ }

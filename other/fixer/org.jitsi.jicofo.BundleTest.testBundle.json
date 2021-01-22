@@ -1,0 +1,1 @@
+{"time":{"startTime":1611164763120,"endTime":1611164763120,"elapsedSeconds":0.0},"status":"NOD","dependentTest":"org.jitsi.jicofo.BundleTest.testBundle","patchResults":[{"time":{"startTime":1611164763120,"endTime":1611164763120,"elapsedSeconds":0.0},"status":"NOD","dependentTest":"org.jitsi.jicofo.BundleTest.testBundle","polluter":"N/A","cleaner":"N/A","iterations":0}]}

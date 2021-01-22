@@ -1,0 +1,53 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.jitsi.jicofo.BundleTest.testBundle
+CLEANER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/BundleTest.java
+POLLUTER: org.jitsi.jicofo.LeakingRoomsTest.testOneToOneConference
+POLLUTER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/LeakingRoomsTest.java
+ORIGINAL CLEANER SIZE: 24
+NEW CLEANER SIZE: 24
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,41 @@
++ {
++     {
++         try {
++             osgi.init();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     {
++     }
++     EntityBareJid roomName = JidCreate.entityBareFrom("testroom@conference.pawel.jitsi.net");
++     String serverName = "test-server";
++     TestConference testConference = TestConference.allocate(osgi.bc, serverName, roomName);
++     MockProtocolProvider pps = testConference.getFocusProtocolProvider();
++     MockMultiUserChatOpSet mucOpSet = pps.getMockChatOpSet();
++     MockMultiUserChat chat = (MockMultiUserChat) mucOpSet.findRoom(roomName.toString());
++     MockParticipant user1 = new MockParticipant("user1");
++     user1.join(chat);
++     MockParticipant user2 = new MockParticipant("user2");
++     user2.join(chat);
++     JingleIQ user1Invite = user1.acceptInvite(6000)[0];
++     validateSessionInit(user1Invite, true);
++     // going to complete, but we need ICE transport manager for that.
++     user1.generateFakeCandidates();
++     JingleIQ user1Transport = user1.sendTransportInfo();
++     assertNotNull(user1Transport);
++     JingleIQ user2Invite = user2.acceptInvite(4000)[0];
++     validateSessionInit(user2Invite, true);
++     user1.leave();
++     user2.leave();
++     testConference.stop();
++     {
++     }
++     {
++         try {
++             osgi.shutdown();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++ }

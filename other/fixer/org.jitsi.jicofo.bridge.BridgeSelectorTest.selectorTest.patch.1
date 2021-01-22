@@ -1,0 +1,69 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.jitsi.jicofo.ColibriTest.testChannelAllocation
+CLEANER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/ColibriTest.java
+POLLUTER: org.jitsi.jicofo.LeakingRoomsTest.testOneToOneConference
+POLLUTER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/LeakingRoomsTest.java
+ORIGINAL CLEANER SIZE: 39
+NEW CLEANER SIZE: 39
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,57 @@
++ {
++     {
++         try {
++             osgi.init();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     {
++     }
++     EntityBareJid roomName = JidCreate.entityBareFrom("testroom@conference.pawel.jitsi.net");
++     String serverName = "test-server";
++     JitsiMeetConfig config = new JitsiMeetConfig(new HashMap<>());
++     TestConference testConference = TestConference.allocate(osgi.bc, serverName, roomName);
++     MockVideobridge mockBridge = testConference.getMockVideoBridge();
++     MockProtocolProvider pps = testConference.getFocusProtocolProvider();
++     OperationSetColibriConference colibriTool = pps.getOperationSet(OperationSetColibriConference.class);
++     ColibriConference colibriConf = colibriTool.createNewConference();
++     colibriConf.setName(JidCreate.entityBareFrom("foo@bar.com/zzz"));
++     colibriConf.setJitsiVideobridge(mockBridge.getBridgeJid());
++     OfferOptions offerOptions = new OfferOptions();
++     OfferOptionsKt.applyConstraints(offerOptions, config);
++     offerOptions.setRtx(false);
++     List<ContentPacketExtension> contents = JingleOfferFactory.INSTANCE.createOffer(offerOptions);
++     String peer1 = "endpoint1";
++     String peer2 = "endpoint2";
++     ColibriConferenceIQ peer1Channels = colibriConf.createColibriChannels(peer1, null, true, contents);
++     assertEquals(1, mockBridge.getEndpointCount());
++     ColibriConferenceIQ peer2Channels = colibriConf.createColibriChannels(peer2, null, true, contents);
++     assertEquals(2, mockBridge.getEndpointCount());
++     assertEquals("Peer 1 should have 3 channels allocated", 3, countChannels(peer1Channels));
++     assertEquals("Peer 2 should have 3 channels allocated", 3, countChannels(peer2Channels));
++     assertEquals("Peer 1 should have single bundle allocated !", 1, peer1Channels.getChannelBundles().size());
++     assertEquals("Peer 2 should have single bundle allocated !", 1, peer2Channels.getChannelBundles().size());
++     assertEquals("Peer 1 should have single endpoint allocated !", 1, peer1Channels.getEndpoints().size());
++     assertEquals("Peer 2 should have single endpoint allocated !", 1, peer2Channels.getEndpoints().size());
++     assertEquals("Peer 1 have wrong endpoint id allocated !", peer1, peer1Channels.getEndpoints().get(0).getId());
++     assertEquals("Peer 2 have wrong endpoint id allocated !", peer2, peer2Channels.getEndpoints().get(0).getId());
++     colibriConf.expireChannels(peer2Channels);
++     // FIXME: fix unreliable sleep call
++     Thread.sleep(5000);
++     assertEquals(1, mockBridge.getEndpointCount());
++     colibriConf.expireChannels(peer1Channels);
++     // FIXME: fix unreliable sleep call
++     Thread.sleep(1000);
++     assertEquals(0, mockBridge.getEndpointCount());
++     testConference.stop();
++     {
++     }
++     {
++         try {
++             osgi.shutdown();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++ }

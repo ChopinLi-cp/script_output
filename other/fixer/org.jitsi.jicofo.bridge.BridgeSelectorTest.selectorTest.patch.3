@@ -1,0 +1,54 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.jitsi.jicofo.RolesTest.testPassModeratorRole
+CLEANER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/RolesTest.java
+POLLUTER: org.jitsi.jicofo.LeakingRoomsTest.testOneToOneConference
+POLLUTER FILE: /home/lichengpeng/test/retest/automated_script/jitsi/jicofo/src/test/java/org/jitsi/jicofo/LeakingRoomsTest.java
+ORIGINAL CLEANER SIZE: 15
+NEW CLEANER SIZE: 15
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,42 @@
++ {
++     {
++         try {
++             osgi.init();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++     {
++     }
++     EntityBareJid roomName = JidCreate.entityBareFrom("testroom@conference.pawel.jitsi.net");
++     String serverName = "test-server";
++     TestConference testConference = TestConference.allocate(osgi.bc, serverName, roomName);
++     MockProtocolProvider pps = testConference.getFocusProtocolProvider();
++     MockMultiUserChatOpSet mucOpSet = pps.getMockChatOpSet();
++     MockMultiUserChat chat = (MockMultiUserChat) mucOpSet.findRoom(roomName.toString());
++     // Join with all users
++     MockParticipant[] users = new MockParticipant[4];
++     for (int i = 0; i < users.length; i++) {
++         users[i] = new MockParticipant("User" + i);
++         users[i].join(chat);
++     }
++     // Accept invite with all users
++     for (MockParticipant user : users) {
++         assertNotNull(user.acceptInvite(10000));
++     }
++     for (int i = 0; i < users.length; i++) {
++         // FIXME: wait for role change otherwise we might randomly fail here
++         assertTrue(i + " user should have moderator role(" + users[i].getNickname() + ")", ChatRoomMemberRole.MODERATOR.compareTo(users[i].getChatMember().getRole()) >= 0);
++         users[i].leave();
++     }
++     testConference.stop();
++     {
++     }
++     {
++         try {
++             osgi.shutdown();
++         } catch (Throwable ex) {
++         } finally {
++         }
++     }
++ }

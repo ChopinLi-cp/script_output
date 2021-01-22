@@ -1,0 +1,1 @@
+{"id":"1610956200473-0f3d5f1d-2bc1-4d0d-95ae-dfe6ec9eff00","testOrder":["org.jitsi.jicofo.XmppTest.testAllocateConference"],"results":{"org.jitsi.jicofo.XmppTest.testAllocateConference":{"name":"org.jitsi.jicofo.XmppTest.testAllocateConference","result":"PASS","time":0.088176124,"stackTrace":[]}},"diffs":{}}

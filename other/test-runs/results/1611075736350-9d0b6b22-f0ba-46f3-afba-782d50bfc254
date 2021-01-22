@@ -1,0 +1,1 @@
+{"id":"1611075736350-9d0b6b22-f0ba-46f3-afba-782d50bfc254","testOrder":["org.jitsi.jicofo.bridge.BridgeSelectorTest.selectorTest"],"results":{"org.jitsi.jicofo.bridge.BridgeSelectorTest.selectorTest":{"name":"org.jitsi.jicofo.bridge.BridgeSelectorTest.selectorTest","result":"PASS","time":2.318558884,"stackTrace":[]}},"diffs":{}}
