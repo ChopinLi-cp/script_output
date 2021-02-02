@@ -1,0 +1,35 @@
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles3774972366712874760/tempfiles3326475523951970212.tmp to /tmp/tempfiles3774972366712874760/tempfiles5779495239650765568.tmp
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles3774972366712874760/tempfiles5779495239650765568.tmp to /tmp/tempfiles3774972366712874760/tempfiles3326475523951970212.tmp
+regularPreprocessAndExportToFile
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles1910156300403789140/tempfiles1674219669642259651.tmp to /tmp/tempfiles1910156300403789140/tempfiles1907619736532704425.tmp
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$1868194973
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: Initializing firmware... ...
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/g2core.json
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/grbl.json
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/smoothieboard.json
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/test_1.json
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/test_2.json
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/tinyg.json
+Jan 24, 2021 11:38:47 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+isReadyToStreamFile

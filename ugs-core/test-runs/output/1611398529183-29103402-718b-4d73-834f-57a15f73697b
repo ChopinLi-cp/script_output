@@ -1,0 +1,832 @@
+shortLine
+diagonalLine
+splitSingleAxis
+sloppyFractions
+G1G0
+testModalReturnedFirst
+ignoreNonLines
+testShortLineNoOp
+addCommand
+resetCommandProcessors
+preprocessCommandGood
+addCommandProcessor
+addCommand
+autoLevelerProcessorSet
+preprocessCommandFeedOverride
+preprocessCommandException?!
+getCurrentPoint
+arcExpandWithModals
+arcExpandBadState
+arcExpandIgnoreNonArc
+expandArcG19
+expandArcG18
+expandArcG17
+insertString
+regularPreprocessAndExportToFile
+Jan 23, 2021 6:42:11 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles2838217022842383726/tempfiles1361559914028326342.tmp to /tmp/tempfiles2838217022842383726/tempfiles5507827935485410949.tmp
+gcodeStreamPreprocessAndExportToFile
+Jan 23, 2021 6:42:11 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles2850321476214626434/tempfiles2154470354049506333.tmp to /tmp/tempfiles2850321476214626434/tempfiles7846219415242820232.tmp
+Jan 23, 2021 6:42:11 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles2850321476214626434/tempfiles7846219415242820232.tmp to /tmp/tempfiles2850321476214626434/tempfiles2154470354049506333.tmp
+overrideSpeed
+parseCodes
+parseComment
+truncateDecimals
+openCommPort
+streamCommands
+sendingCommand
+-N/A for abstract class-
+processedCommand
+-N/A for abstract class-
+areActiveCommands
+pauseSend
+sendByteImmediately
+closeCommPort
+getBufferSize
+queueStringForComm
+responseMessage
+cancelSend
+Jan 23, 2021 6:42:13 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+queueCommands
+isStreaming
+queueCommands
+queueCommand
+rawResponseHandler
+-N/A Abstract Function-
+statusUpdatesRateValueChanged
+-N/A Abstract Function-
+beginStreaming
+-Covered by testQueueCommands-
+getCommandCreator
+getSendDuration
+viewParserState
+-N/A Implementation Specific Function-
+queueStream
+queueStream
+jogMachine
+jan 23, 2021 6:42:17 EM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+jan 23, 2021 6:42:17 EM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+statusUpdatesEnabledValueChanged
+-N/A Abstract Function-
+toggleCheckMode
+-N/A Implementation Specific Function-
+killAlarmLock
+-N/A Implementation Specific Function-
+resetCoordinatesToZero
+-N/A Implementation Specific Function-
+commandComplete
+commandSent
+softReset
+-N/A Implementation Specific Function-
+issueSoftReset
+-N/A Implementation Specific Function-
+commandSent
+resetCoordinateToZero
+-N/A Implementation Specific Function-
+returnToHome
+-N/A Implementation Specific Function-
+performHomingCycle
+-N/A Implementation Specific Function-
+performHomingCycle
+commandComplete
+Pause + cancelSend
+cancelSend
+getSendDuration
+result: 2000
+Argument(s) are different! Wanted:
+messageService.dispatchMessage(
+    INFO,
+    "An unexpected error was detected: (error:1) G-code words consist of a letter and a value. Letter was not found.
+"
+);
+-> at com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerOnErrorWithNoSentCommandsShouldSendMessageToConsole(GrblControllerTest.java:1333)
+Actual invocations have different arguments:
+messageService.dispatchMessage(
+    INFO,
+    "Ett oväntat fel har uppstått: (error:1) G-code words consist of a letter and a value. Letter was not found.
+"
+);
+-> at com.willwinder.universalgcodesender.AbstractController.dispatchConsoleMessage(AbstractController.java:870)
+
+	at com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerOnErrorWithNoSentCommandsShouldSendMessageToConsole(GrblControllerTest.java:1333)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+closeCommPort/isCommOpen
+Argument(s) are different! Wanted:
+messageService.dispatchMessage(
+    ERROR,
+    "An error was detected while sending 'G21': (error:18) An unknown error has occurred. Streaming has been paused.
+"
+);
+-> at com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithUnknownErrorShouldWriteGenericMessageToConsole(GrblControllerTest.java:1311)
+Actual invocations have different arguments:
+messageService.dispatchMessage(
+    ERROR,
+    "Ett fel upptäcktes vid skickning av 'G21': (error:18) An unknown error has occurred. Skickning har pausats.
+"
+);
+-> at com.willwinder.universalgcodesender.AbstractController.dispatchConsoleMessage(AbstractController.java:870)
+
+	at com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithUnknownErrorShouldWriteGenericMessageToConsole(GrblControllerTest.java:1311)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+addListener
+testRowsAsteriskMethods
+rawResponseListener
+resumeStreaming
+issueSoftReset
+openCommPort/isCommOpen
+queueStringForComm
+jogMachineTo
+Argument(s) are different! Wanted:
+messageService.dispatchMessage(
+    ERROR,
+    "An error was detected while sending 'G0': (error:1) G-code words consist of a letter and a value. Letter was not found. Streaming has been paused.
+"
+);
+-> at com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithKnownErrorShouldWriteMessageToConsole(GrblControllerTest.java:1287)
+Actual invocations have different arguments:
+messageService.dispatchMessage(
+    ERROR,
+    "Ett fel upptäcktes vid skickning av 'G0': (error:1) G-code words consist of a letter and a value. Letter was not found. Skickning har pausats.
+"
+);
+-> at com.willwinder.universalgcodesender.AbstractController.dispatchConsoleMessage(AbstractController.java:870)
+
+	at com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithKnownErrorShouldWriteMessageToConsole(GrblControllerTest.java:1287)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+pauseStreaming
+getGrblVersion
+org.junit.ComparisonFailure: expected:<<[Not connected]>> but was:<<[Inte ansluten]>>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.willwinder.universalgcodesender.GrblControllerTest.testGetGrblVersion(GrblControllerTest.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+jogMachine
+jan 23, 2021 6:42:23 EM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+jan 23, 2021 6:42:23 EM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+beginStreaming
+isReadyToStreamFile
+org.junit.ComparisonFailure: expected:<G[rbl has not finished booting].> but was:<G[RBL är inte klar med uppstarten].>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.willwinder.universalgcodesender.GrblControllerTest.testIsReadyToStreamFile(GrblControllerTest.java:537)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+processFile
+formattedMillis
+millisSince
+timeSince
+lookup
+Running all fixtures in ./gcode/fixtures/arc/ for ArcMesh:
+Running fixture ./gcode/fixtures/arc/circle_test.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/Helix.input.nc...
+Running all fixtures in ./gcode/fixtures/run-from/ for RunFrom:
+Running fixture ./gcode/fixtures/run-from/simple.g1.input.nc...
+Running fixture ./gcode/fixtures/run-from/simple.g2.input.nc...
+Running all fixtures in ./gcode/fixtures/arc/ for Arc:
+Running fixture ./gcode/fixtures/arc/circle_test.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/Helix.input.nc...
+Running all fixtures in ./gcode/fixtures/arc/ for ArcCoarse:
+Running fixture ./gcode/fixtures/arc/circle_test.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/Helix.input.nc...
+removeComment
+WhitespaceProcessor
+jan 23, 2021 6:42:24 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 6
+jan 23, 2021 6:42:24 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+jan 23, 2021 6:42:24 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $0 to 11
+jan 23, 2021 6:42:26 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+VARNING: Couldn't update setting $0 with value 11
+jan 23, 2021 6:42:26 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 3
+jan 23, 2021 6:42:26 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+jan 23, 2021 6:42:26 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 5
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+substituteValues
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: Initializing firmware... ...
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/g2core.json
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/grbl.json
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/smoothieboard.json
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/test_1.json
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/test_2.json
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/tinyg.json
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend pauseResume
+INFO: Pause/Resume
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend pauseResume
+ALLVARLIG: Exception in pauseResume
+java.lang.Exception: Cannot pause while 'COMM_DISCONNECTED'.
+	at com.willwinder.universalgcodesender.model.GUIBackend.pauseResume(GUIBackend.java:591)
+	at com.willwinder.universalgcodesender.model.GUIBackend$MockitoMock$55371192.pauseResume$accessor$apYgIhko(Unknown Source)
+	at com.willwinder.universalgcodesender.model.GUIBackend$MockitoMock$55371192$auxiliary$7H8JJPhy.call(Unknown Source)
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40)
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62)
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:44)
+	at org.mockito.Answers.answer(Answers.java:100)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108)
+	at com.willwinder.universalgcodesender.model.GUIBackend$MockitoMock$55371192.pauseResume(Unknown Source)
+	at com.willwinder.universalgcodesender.model.GUIBackendTest.pauseResumeWhenDisconnectedShouldThrowException(GUIBackendTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to unknown on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend disconnectInternal
+INFO: Disconnecting.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend disconnectInternal
+INFO: Disconnecting.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend setGcodeFile
+INFO: Setting gcode file.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend initializeProcessedLines
+INFO: Start preprocessing
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/ugs-3816482422690094153.gcode to /tmp/1611398547667-0/ugs-3816482422690094153.gcode_ugs_1611398547673
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend initializeProcessedLines
+INFO: Took 12ms to preprocess
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend getProcessedGcodeFile
+INFO: Getting processed gcode file.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend sendGcodeCommand
+INFO: Sending gcode command: G00
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend pauseResume
+INFO: Pause/Resume
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend pauseResume
+ALLVARLIG: Exception in pauseResume
+java.lang.Exception: Cannot pause while 'COMM_IDLE'.
+	at com.willwinder.universalgcodesender.model.GUIBackend.pauseResume(GUIBackend.java:591)
+	at com.willwinder.universalgcodesender.model.GUIBackend$MockitoMock$55371192.pauseResume$accessor$apYgIhko(Unknown Source)
+	at com.willwinder.universalgcodesender.model.GUIBackend$MockitoMock$55371192$auxiliary$7H8JJPhy.call(Unknown Source)
+	at org.mockito.internal.invocation.RealMethod$FromCallable$1.call(RealMethod.java:40)
+	at org.mockito.internal.invocation.RealMethod$FromBehavior.invoke(RealMethod.java:62)
+	at org.mockito.internal.invocation.InterceptedInvocation.callRealMethod(InterceptedInvocation.java:152)
+	at org.mockito.internal.stubbing.answers.CallsRealMethods.answer(CallsRealMethods.java:44)
+	at org.mockito.Answers.answer(Answers.java:100)
+	at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:103)
+	at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+	at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:35)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:61)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor.doIntercept(MockMethodInterceptor.java:49)
+	at org.mockito.internal.creation.bytebuddy.MockMethodInterceptor$DispatcherDefaultingToRealMethod.interceptSuperCallable(MockMethodInterceptor.java:108)
+	at com.willwinder.universalgcodesender.model.GUIBackend$MockitoMock$55371192.pauseResume(Unknown Source)
+	at com.willwinder.universalgcodesender.model.GUIBackendTest.pauseResumeWhenInIdleShouldThrowException(GUIBackendTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend openCommConnection
+INFO: Exception in openCommConnection.
+java.lang.Exception
+	at com.willwinder.universalgcodesender.model.GUIBackend.openCommConnection(GUIBackend.java:826)
+	at com.willwinder.universalgcodesender.model.GUIBackend.connect(GUIBackend.java:224)
+	at com.willwinder.universalgcodesender.model.GUIBackendTest.connectWhenFailingToOpenControllerConnectionShouldNotBeOk(GUIBackendTest.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.runChild(JUnitTestRunner.java:333)
+	at edu.illinois.cs.testrunner.execution.JUnitTestRunner.run(JUnitTestRunner.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:292)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:328)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:366)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:47)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend pauseResume
+INFO: Pause/Resume
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend setGcodeFile
+INFO: Setting gcode file.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend pauseResume
+INFO: Pause/Resume
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+jan 23, 2021 6:42:27 EM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$301684344
+InvalidProcessor
+InvalidProcessor
+initializeWithProcessors
+checkRoomInBuffer
+getSizeOfBuffer
+openCommPort
+-not testing RXTX.
+streamCommands
+streamCommands
+softReset
+queueStringForComm
+areActiveCommands
+pauseSend
+closeCommPort
+-not testing RXTX.
+sendByteImmediately
+streamCommands
+cancelSend
+getResetCoordCommand
+getGrblStatusCapabilities
+getKillAlarmLockCommand
+isGrblVersionString
+getToggleCheckModeCommand
+getVersionLetter
+getWorkPositionFromStatusString
+getHomingCommand
+getViewParserStateCommand
+getVersionDouble
+isGrblStatusString
+getMachinePositionFromStatusString
+getStateFromStatusString

@@ -1,0 +1,19 @@
+Jan 23, 2021 7:32:04 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+Jan 23, 2021 7:32:05 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 6
+Jan 23, 2021 7:32:05 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 23, 2021 7:32:05 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 5
+Jan 23, 2021 7:32:05 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 23, 2021 7:32:05 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $0 to 11
+Jan 23, 2021 7:32:06 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 3
+Jan 23, 2021 7:32:06 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 23, 2021 7:32:08 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+WARNING: Couldn't update setting $0 with value 11
+getGrblVersion

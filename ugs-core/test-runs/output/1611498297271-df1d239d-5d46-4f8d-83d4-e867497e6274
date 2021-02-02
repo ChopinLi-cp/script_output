@@ -1,0 +1,79 @@
+Jan 24, 2021 10:24:58 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+Jan 24, 2021 10:24:58 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 6
+Jan 24, 2021 10:24:58 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 24, 2021 10:24:58 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 5
+Jan 24, 2021 10:24:58 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 24, 2021 10:24:59 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $0 to 11
+Jan 24, 2021 10:24:59 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 3
+Jan 24, 2021 10:24:59 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 24, 2021 10:25:01 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+WARNING: Couldn't update setting $0 with value 11
+Jan 24, 2021 10:25:01 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$1332973853
+Jan 24, 2021 10:25:01 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$1332973853
+sloppyFractions
+shortLine
+ignoreNonLines
+testModalReturnedFirst
+G1G0
+splitSingleAxis
+testShortLineNoOp
+diagonalLine
+formattedMillis
+processFile
+timeSince
+millisSince
+areActiveCommands
+pauseSend
+streamCommands
+queueStringForComm
+sendByteImmediately
+cancelSend
+responseMessage
+closeCommPort
+sendingCommand
+-N/A for abstract class-
+getBufferSize
+openCommPort
+processedCommand
+-N/A for abstract class-
+InvalidProcessor
+InvalidProcessor
+initializeWithProcessors
+getGrblStatusCapabilities
+isGrblStatusString
+getVersionDouble
+getToggleCheckModeCommand
+isGrblVersionString
+getStateFromStatusString
+getHomingCommand
+getViewParserStateCommand
+getKillAlarmLockCommand
+getVersionLetter
+getWorkPositionFromStatusString
+getResetCoordCommand
+getMachinePositionFromStatusString
+regularPreprocessAndExportToFile
+Jan 24, 2021 10:25:03 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles1531276834554893356/tempfiles5904150817074813486.tmp to /tmp/tempfiles1531276834554893356/tempfiles8495109092760912380.tmp
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 10:25:03 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles2343827094893889907/tempfiles1050414819982555767.tmp to /tmp/tempfiles2343827094893889907/tempfiles1405382549247186192.tmp
+Jan 24, 2021 10:25:03 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles2343827094893889907/tempfiles1405382549247186192.tmp to /tmp/tempfiles2343827094893889907/tempfiles1050414819982555767.tmp
+testRowsAsteriskMethods
+issueSoftReset
+pauseStreaming
+resumeStreaming
+Pause + cancelSend
+rawResponseListener
+addListener

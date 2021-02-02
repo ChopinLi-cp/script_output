@@ -1,0 +1,32 @@
+Jan 24, 2021 11:11:55 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 11:11:56 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles4104314410081655914/tempfiles686684458281886981.tmp to /tmp/tempfiles4104314410081655914/tempfiles4699925818241298185.tmp
+Jan 24, 2021 11:11:56 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles4104314410081655914/tempfiles4699925818241298185.tmp to /tmp/tempfiles4104314410081655914/tempfiles686684458281886981.tmp
+regularPreprocessAndExportToFile
+Jan 24, 2021 11:11:56 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles5730078281461928925/tempfiles5871468073941388291.tmp to /tmp/tempfiles5730078281461928925/tempfiles2591414063086468635.tmp
+lookup
+queueStringForComm
+cancelSend
+testRowsAsteriskMethods
+getGrblVersion
+jogMachineTo
+rawResponseListener
+openCommPort/isCommOpen
+Pause + cancelSend
+addListener
+beginStreaming
+resumeStreaming
+jogMachine
+Jan 24, 2021 11:11:56 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+Jan 24, 2021 11:11:56 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+getSendDuration
+result: 2000
+commandComplete
+pauseStreaming
+issueSoftReset

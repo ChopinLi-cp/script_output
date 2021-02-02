@@ -1,0 +1,7 @@
+cancelSend
+issueSoftReset
+jogMachineTo
+substituteValues
+Jan 24, 2021 11:09:36 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+getGrblVersion

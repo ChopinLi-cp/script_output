@@ -1,0 +1,5 @@
+Jan 24, 2021 10:45:00 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+processFile
+formattedMillis
+millisSince

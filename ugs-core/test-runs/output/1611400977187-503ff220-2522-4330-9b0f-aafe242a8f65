@@ -1,0 +1,24 @@
+Jan 23, 2021 7:22:57 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+removeComment
+WhitespaceProcessor
+InvalidProcessor
+initializeWithProcessors
+InvalidProcessor
+Jan 23, 2021 7:22:58 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$1146085007
+Jan 23, 2021 7:22:58 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$1146085007
+splitSingleAxis
+shortLine
+G1G0
+diagonalLine
+ignoreNonLines
+testModalReturnedFirst
+sloppyFractions
+testShortLineNoOp
+isReadyToStreamFile
+testRowsAsteriskMethods
+rawResponseListener
+closeCommPort/isCommOpen
+getGrblVersion

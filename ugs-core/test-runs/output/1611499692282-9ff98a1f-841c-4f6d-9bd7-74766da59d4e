@@ -1,0 +1,86 @@
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles1595974162898474157/tempfiles2017935808439197279.tmp to /tmp/tempfiles1595974162898474157/tempfiles8509158887827508189.tmp
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles1595974162898474157/tempfiles8509158887827508189.tmp to /tmp/tempfiles1595974162898474157/tempfiles2017935808439197279.tmp
+regularPreprocessAndExportToFile
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles3913134315382755146/tempfiles1509958847032046826.tmp to /tmp/tempfiles3913134315382755146/tempfiles666270948573332183.tmp
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: Initializing firmware... ...
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/g2core.json
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/grbl.json
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/smoothieboard.json
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/test_1.json
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/test_2.json
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.utils.FirmwareUtils initialize
+INFO: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/target/classes/resources/firmware_config/tinyg.json
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:13 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$244962401
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend connect
+INFO: Connecting to GRBL on port /dev/ttyS0
+Jan 24, 2021 10:48:14 PM com.willwinder.universalgcodesender.model.GUIBackend applySettings
+INFO: Applying settings.

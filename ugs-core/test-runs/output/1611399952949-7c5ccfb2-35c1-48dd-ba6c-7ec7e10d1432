@@ -1,0 +1,119 @@
+InvalidProcessor
+InvalidProcessor
+initializeWithProcessors
+testShortLineNoOp
+G1G0
+ignoreNonLines
+diagonalLine
+sloppyFractions
+splitSingleAxis
+shortLine
+testModalReturnedFirst
+expandArcG17
+expandArcG18
+expandArcG19
+arcExpandWithModals
+arcExpandIgnoreNonArc
+arcExpandBadState
+removeComment
+WhitespaceProcessor
+Running all fixtures in ./gcode/fixtures/arc/ for ArcCoarse:
+Running fixture ./gcode/fixtures/arc/circle_test.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/Helix.input.nc...
+Running all fixtures in ./gcode/fixtures/arc/ for ArcMesh:
+Running fixture ./gcode/fixtures/arc/circle_test.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/Helix.input.nc...
+Running all fixtures in ./gcode/fixtures/run-from/ for RunFrom:
+Running fixture ./gcode/fixtures/run-from/simple.g1.input.nc...
+Running fixture ./gcode/fixtures/run-from/simple.g2.input.nc...
+Running all fixtures in ./gcode/fixtures/arc/ for Arc:
+Running fixture ./gcode/fixtures/arc/circle_test.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G17_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G18_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G2_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/G19_G3_one_arc.input.nc...
+Running fixture ./gcode/fixtures/arc/Helix.input.nc...
+addCommand
+preprocessCommandException?!
+preprocessCommandFeedOverride
+getCurrentPoint
+addCommand
+resetCommandProcessors
+preprocessCommandGood
+addCommandProcessor
+autoLevelerProcessorSet
+checkRoomInBuffer
+getSizeOfBuffer
+lookup
+getKillAlarmLockCommand
+getVersionDouble
+getVersionLetter
+isGrblStatusString
+getViewParserStateCommand
+getGrblStatusCapabilities
+getWorkPositionFromStatusString
+isGrblVersionString
+getResetCoordCommand
+getStateFromStatusString
+getMachinePositionFromStatusString
+getHomingCommand
+getToggleCheckModeCommand
+insertString
+commandSent
+queueStream
+rawResponseHandler
+-N/A Abstract Function-
+jogMachine
+Jan 23, 2021 7:05:58 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+Jan 23, 2021 7:05:58 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+commandComplete
+commandSent
+softReset
+-N/A Implementation Specific Function-
+beginStreaming
+-Covered by testQueueCommands-
+getSendDuration
+resetCoordinatesToZero
+-N/A Implementation Specific Function-
+queueCommands
+isStreaming
+queueCommands
+performHomingCycle
+-N/A Implementation Specific Function-
+viewParserState
+-N/A Implementation Specific Function-
+queueStream
+getCommandCreator
+issueSoftReset
+-N/A Implementation Specific Function-
+statusUpdatesRateValueChanged
+-N/A Abstract Function-
+resetCoordinateToZero
+-N/A Implementation Specific Function-
+queueCommand
+toggleCheckMode
+-N/A Implementation Specific Function-
+returnToHome
+-N/A Implementation Specific Function-
+killAlarmLock
+-N/A Implementation Specific Function-
+statusUpdatesEnabledValueChanged
+-N/A Abstract Function-
+rawResponseListener
+closeCommPort/isCommOpen

@@ -1,0 +1,11 @@
+Jan 24, 2021 11:48:18 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 11:48:19 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles5338959138851891923/tempfiles8521231303593470423.tmp to /tmp/tempfiles5338959138851891923/tempfiles7958309116992517675.tmp
+Jan 24, 2021 11:48:19 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles5338959138851891923/tempfiles7958309116992517675.tmp to /tmp/tempfiles5338959138851891923/tempfiles8521231303593470423.tmp
+regularPreprocessAndExportToFile
+Jan 24, 2021 11:48:19 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles1688322206397878632/tempfiles89599732611476874.tmp to /tmp/tempfiles1688322206397878632/tempfiles9115587279985940539.tmp
+isReadyToStreamFile

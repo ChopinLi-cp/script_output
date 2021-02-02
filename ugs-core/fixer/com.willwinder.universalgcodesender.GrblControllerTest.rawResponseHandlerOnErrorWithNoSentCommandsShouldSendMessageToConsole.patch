@@ -1,0 +1,15 @@
+STATUS: INLINE FAIL
+MODIFIED: com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerOnErrorWithNoSentCommandsShouldSendMessageToConsole
+MODIFIED FILE: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/test/com/willwinder/universalgcodesender/GrblControllerTest.java
+CLEANER: com.willwinder.universalgcodesender.i18n.LocalizationTest.loadLocalizationThatDoesNotExistShouldRevertToEnglish
+CLEANER FILE: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/test/com/willwinder/universalgcodesender/i18n/LocalizationTest.java
+POLLUTER: com.willwinder.universalgcodesender.i18n.LocalizationTest.loadLocalizationThatDoesExistShouldLoad
+POLLUTER FILE: /home/lichengpeng/test/retest/automated_script/winder/Universal-G-Code-Sender/ugs-core/test/com/willwinder/universalgcodesender/i18n/LocalizationTest.java
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 1
+ELAPSED TIME: 38.943000078201294
+==========================
+@@ -1319,0 +1319,3 @@
++ {
++     boolean containsAllTranslations = Localization.initialize("fake", "LOCALE");
++ }

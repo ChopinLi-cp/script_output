@@ -1,0 +1,9 @@
+Pause + cancelSend
+commandComplete
+pauseStreaming
+jogMachine
+Jan 24, 2021 11:35:51 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+Jan 24, 2021 11:35:51 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+isReadyToStreamFile

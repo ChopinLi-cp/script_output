@@ -1,0 +1,53 @@
+Jan 23, 2021 6:50:00 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+getToggleCheckModeCommand
+getVersionDouble
+isGrblVersionString
+getKillAlarmLockCommand
+getWorkPositionFromStatusString
+getViewParserStateCommand
+getVersionLetter
+getMachinePositionFromStatusString
+getResetCoordCommand
+getStateFromStatusString
+getHomingCommand
+getGrblStatusCapabilities
+isGrblStatusString
+gcodeStreamPreprocessAndExportToFile
+Jan 23, 2021 6:50:00 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles4399902059682004759/tempfiles4164257788367593965.tmp to /tmp/tempfiles4399902059682004759/tempfiles3883096608911390007.tmp
+Jan 23, 2021 6:50:00 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles4399902059682004759/tempfiles3883096608911390007.tmp to /tmp/tempfiles4399902059682004759/tempfiles4164257788367593965.tmp
+regularPreprocessAndExportToFile
+Jan 23, 2021 6:50:00 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles7482733436669488968/tempfiles4074214248666784863.tmp to /tmp/tempfiles7482733436669488968/tempfiles5073231868772205299.tmp
+preprocessCommandGood
+preprocessCommandFeedOverride
+addCommand
+addCommand
+getCurrentPoint
+preprocessCommandException?!
+resetCommandProcessors
+addCommandProcessor
+autoLevelerProcessorSet
+addListener
+Pause + cancelSend
+jogMachine
+Jan 23, 2021 6:50:01 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+Jan 23, 2021 6:50:01 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+isReadyToStreamFile
+performHomingCycle
+testRowsAsteriskMethods
+resumeStreaming
+closeCommPort/isCommOpen
+queueStringForComm
+cancelSend
+issueSoftReset
+getGrblVersion
+getSendDuration
+result: 2000
+pauseStreaming
+jogMachineTo
+commandComplete

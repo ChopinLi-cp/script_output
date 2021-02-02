@@ -1,0 +1,51 @@
+Jan 23, 2021 7:46:50 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+Jan 23, 2021 7:46:51 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 6
+Jan 23, 2021 7:46:51 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 23, 2021 7:46:51 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 5
+Jan 23, 2021 7:46:51 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 23, 2021 7:46:51 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $0 to 11
+Jan 23, 2021 7:46:52 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 3
+Jan 23, 2021 7:46:52 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 23, 2021 7:46:54 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+WARNING: Couldn't update setting $0 with value 11
+Jan 23, 2021 7:46:54 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$321157466
+Jan 23, 2021 7:46:54 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$321157466
+sloppyFractions
+shortLine
+ignoreNonLines
+testModalReturnedFirst
+G1G0
+splitSingleAxis
+testShortLineNoOp
+diagonalLine
+formattedMillis
+processFile
+timeSince
+millisSince
+areActiveCommands
+pauseSend
+streamCommands
+queueStringForComm
+sendByteImmediately
+cancelSend
+responseMessage
+closeCommPort
+sendingCommand
+-N/A for abstract class-
+getBufferSize
+openCommPort
+processedCommand
+-N/A for abstract class-
+InvalidProcessor
+InvalidProcessor
+initializeWithProcessors

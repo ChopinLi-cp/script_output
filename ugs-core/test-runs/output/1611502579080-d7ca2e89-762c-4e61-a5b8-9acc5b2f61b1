@@ -1,0 +1,96 @@
+Jan 24, 2021 11:36:19 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+Jan 24, 2021 11:36:20 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 6
+Jan 24, 2021 11:36:20 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 24, 2021 11:36:20 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 5
+Jan 24, 2021 11:36:20 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 24, 2021 11:36:21 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $0 to 11
+Jan 24, 2021 11:36:21 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 3
+Jan 24, 2021 11:36:21 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+INFO: Updated setting $3 to 7
+Jan 24, 2021 11:36:23 PM com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener rawResponseListener
+WARNING: Couldn't update setting $0 with value 11
+Jan 24, 2021 11:36:23 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$8614237
+Jan 24, 2021 11:36:23 PM com.willwinder.universalgcodesender.model.GUIBackend addUGSEventListener
+INFO: Adding UGSEvent listener: UGSEventListener$MockitoMock$8614237
+sloppyFractions
+shortLine
+ignoreNonLines
+testModalReturnedFirst
+G1G0
+splitSingleAxis
+testShortLineNoOp
+diagonalLine
+formattedMillis
+processFile
+timeSince
+millisSince
+areActiveCommands
+pauseSend
+streamCommands
+queueStringForComm
+sendByteImmediately
+cancelSend
+responseMessage
+closeCommPort
+sendingCommand
+-N/A for abstract class-
+getBufferSize
+openCommPort
+processedCommand
+-N/A for abstract class-
+InvalidProcessor
+InvalidProcessor
+initializeWithProcessors
+getGrblStatusCapabilities
+isGrblStatusString
+getVersionDouble
+getToggleCheckModeCommand
+isGrblVersionString
+getStateFromStatusString
+getHomingCommand
+getViewParserStateCommand
+getKillAlarmLockCommand
+getVersionLetter
+getWorkPositionFromStatusString
+getResetCoordCommand
+getMachinePositionFromStatusString
+regularPreprocessAndExportToFile
+Jan 24, 2021 11:36:24 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles8852518183284219456/tempfiles657187298596119149.tmp to /tmp/tempfiles8852518183284219456/tempfiles3173009145736322378.tmp
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 11:36:24 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles6220610069465009942/tempfiles7923926217096550738.tmp to /tmp/tempfiles6220610069465009942/tempfiles7520907323463833971.tmp
+Jan 24, 2021 11:36:24 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles6220610069465009942/tempfiles7520907323463833971.tmp to /tmp/tempfiles6220610069465009942/tempfiles7923926217096550738.tmp
+testRowsAsteriskMethods
+issueSoftReset
+pauseStreaming
+resumeStreaming
+Pause + cancelSend
+rawResponseListener
+addListener
+openCommPort/isCommOpen
+jogMachine
+Jan 24, 2021 11:36:24 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+Jan 24, 2021 11:36:24 PM com.willwinder.universalgcodesender.AbstractController jogMachine
+INFO: Adjusting manual location.
+cancelSend
+closeCommPort/isCommOpen
+jogMachineTo
+queueStringForComm
+getSendDuration
+result: 2000
+commandComplete
+getGrblVersion
+performHomingCycle
+beginStreaming
+isReadyToStreamFile

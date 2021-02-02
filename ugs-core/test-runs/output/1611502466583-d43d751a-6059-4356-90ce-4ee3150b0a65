@@ -1,0 +1,44 @@
+commandComplete
+commandSent
+softReset
+-N/A Implementation Specific Function-
+beginStreaming
+-Covered by testQueueCommands-
+getSendDuration
+resetCoordinatesToZero
+-N/A Implementation Specific Function-
+queueCommands
+isStreaming
+queueCommands
+performHomingCycle
+-N/A Implementation Specific Function-
+viewParserState
+-N/A Implementation Specific Function-
+queueStream
+getCommandCreator
+issueSoftReset
+-N/A Implementation Specific Function-
+statusUpdatesRateValueChanged
+-N/A Abstract Function-
+resetCoordinateToZero
+-N/A Implementation Specific Function-
+queueCommand
+toggleCheckMode
+-N/A Implementation Specific Function-
+returnToHome
+-N/A Implementation Specific Function-
+killAlarmLock
+-N/A Implementation Specific Function-
+statusUpdatesEnabledValueChanged
+-N/A Abstract Function-
+substituteValues
+Jan 24, 2021 11:34:31 PM com.willwinder.universalgcodesender.i18n.Localization initialize
+WARNING: Couldn't find translations for the locale fake_LOCALE. Reverts to en_US
+gcodeStreamPreprocessAndExportToFile
+Jan 24, 2021 11:34:31 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles6221818306694877094/tempfiles6082119428945165936.tmp to /tmp/tempfiles6221818306694877094/tempfiles3440778176552071426.tmp
+Jan 24, 2021 11:34:31 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles6221818306694877094/tempfiles3440778176552071426.tmp to /tmp/tempfiles6221818306694877094/tempfiles6082119428945165936.tmp
+regularPreprocessAndExportToFile
+Jan 24, 2021 11:34:31 PM com.willwinder.universalgcodesender.model.GUIBackend preprocessAndExportToFile
+INFO: Preprocessing /tmp/tempfiles5013561551474789860/tempfiles2383421203559526451.tmp to /tmp/tempfiles5013561551474789860/tempfiles8560181560509434925.tmp
