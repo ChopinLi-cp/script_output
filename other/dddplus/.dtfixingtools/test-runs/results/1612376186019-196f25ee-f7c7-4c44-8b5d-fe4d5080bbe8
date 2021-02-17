@@ -1,0 +1,1 @@
+{"id":"1612376186019-196f25ee-f7c7-4c44-8b5d-fe4d5080bbe8","testOrder":["io.github.dddplus.testing.LogAssertTest.contains"],"results":{"io.github.dddplus.testing.LogAssertTest.contains":{"name":"io.github.dddplus.testing.LogAssertTest.contains","result":"PASS","time":0.012955767,"stackTrace":[]}},"diffs":{}}

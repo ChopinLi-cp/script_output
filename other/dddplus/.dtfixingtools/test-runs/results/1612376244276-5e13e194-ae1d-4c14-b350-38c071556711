@@ -1,0 +1,1 @@
+{"id":"1612376244276-5e13e194-ae1d-4c14-b350-38c071556711","testOrder":["io.github.dddplus.runtime.registry.ContainerTest.jarNotExist"],"results":{"io.github.dddplus.runtime.registry.ContainerTest.jarNotExist":{"name":"io.github.dddplus.runtime.registry.ContainerTest.jarNotExist","result":"PASS","time":0.027392725,"stackTrace":[]}},"diffs":{}}

@@ -1,0 +1,23 @@
+STATUS: INLINE SUCCESSFUL
+MODIFIED: io.github.dddplus.runtime.registry.IntegrationTest.testPolicy
+MODIFIED FILE: /home/lichengpeng/test/final/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+CLEANER: io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateOneStepTimeoutWillNotRollback
+CLEANER FILE: /home/lichengpeng/test/final/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+POLLUTER: io.github.dddplus.runtime.registry.BadOnPurposeTest.notISpecificationButAnnotatedWithSpecification
+POLLUTER FILE: /home/lichengpeng/test/final/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/BadOnPurposeTest.java
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 4
+ELAPSED TIME: 1430.276999950409
+==========================
+@@ -204,0 +204,11 @@
++ {
++     fooModel.setB2c(false);
++     fooModel.setSleepExtTimeout(true);
++     List<String> steps = DDD.findAbility(DecideStepsAbility.class).decideSteps(fooModel, Steps.Submit.Activity);
++     // FooStep调用一个扩展点超时，会抛出 ExtTimeoutException，不确定状态：抛出到外面，框架层不做回滚
++     try {
++         submitStepsExec.execute(Steps.Submit.Activity, steps, fooModel);
++     } catch (ExtTimeoutException expected) {
++         assertEquals("timeout:100ms", expected.getMessage());
++     }
++ }

@@ -1,0 +1,23 @@
+STATUS: INLINE SUCCESSFUL
+MODIFIED: io.github.dddplus.runtime.registry.IntegrationTest.testPolicy
+MODIFIED FILE: /home/lichengpeng/test/final/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+CLEANER: io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateWithInvalidRollback
+CLEANER FILE: /home/lichengpeng/test/final/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+POLLUTER: io.github.dddplus.runtime.registry.BadOnPurposeTest.badDomainService
+POLLUTER FILE: /home/lichengpeng/test/final/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/BadOnPurposeTest.java
+ORIGINAL CLEANER SIZE: 8
+NEW CLEANER SIZE: 4
+ELAPSED TIME: 1526.255999803543
+==========================
+@@ -204,0 +204,11 @@
++ {
++     fooModel.setB2c(false);
++     fooModel.setWillRollbackInvalid(true);
++     List<String> steps = DDD.findAbility(DecideStepsAbility.class).decideSteps(fooModel, Steps.Submit.Activity);
++     try {
++         submitStepsExec.execute(Steps.Submit.Activity, steps, fooModel);
++     } catch (RuntimeException expected) {
++         assertFalse(expected instanceof FooException);
++         assertEquals("Will not rollback", expected.getMessage());
++     }
++ }

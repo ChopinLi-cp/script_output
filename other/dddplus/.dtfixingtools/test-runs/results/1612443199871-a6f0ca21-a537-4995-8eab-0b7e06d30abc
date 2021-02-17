@@ -1,0 +1,1 @@
+{"id":"1612443199871-a6f0ca21-a537-4995-8eab-0b7e06d30abc","testOrder":["io.github.dddplus.runtime.registry.IntegrationTest.stepsRevisionDeadLoop"],"results":{"io.github.dddplus.runtime.registry.IntegrationTest.stepsRevisionDeadLoop":{"name":"io.github.dddplus.runtime.registry.IntegrationTest.stepsRevisionDeadLoop","result":"PASS","time":0.002021115,"stackTrace":[]}},"diffs":{}}

@@ -1,0 +1,5 @@
+2021-02-03 20:34:55,442 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [17] - Hello
+2021-02-03 20:34:55,447 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [20] - World
+2021-02-03 20:34:55,447 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [24] - DDDplus Framework
+2021-02-03 20:34:55,448 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [27] - a
+2021-02-03 20:34:55,448 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [28] - b
